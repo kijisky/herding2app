@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Добавить собаку</title>
+</head>
+<body>
+
+<div class="wrap">
+    <ul class="breadcrumbs">
+        <li><a href="/Main_page">Главная</a></li>
+        <li><a href="/Profile_user">Личный кабинет</a></li>
+        <li><a href="/Form_add_dog">Добавить собаку</a></li>
+    </ul>
+    <div class="block"></div>
+    <h1>Создание профиля собаки</h1>
+    <form action="" class="add_data">
+        <table class="add">
+            <tr>
+                <td class="item">Полная кличка</td>
+                <td class="answer">
+                    <input type="text" placeholder="Полная кличка"></td>
+            </tr>
+            <tr>
+                <td class="item">Краткая кличка</td>
+                <td class="answer">
+                    <input type="text" placeholder="Краткая кличка"></td>
+            </tr>
+            <tr>
+                <td class="item">Порода</td>
+                <td class="answer">
+                    <select>
+                        <option>
+                            <p>Выберите название породы из списка</p>
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="item">Дата рождения</td>
+                <td class="answer"><input type="date" name="date" placeholder="Выберите дату"></td>
+            </tr>
+            <tr>
+                <td class="item">Город проживания</td>
+                <td class="answer">
+                    <select>
+                        <option>
+                            <p>Выберите город из списка</p>
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="item">Пол</td>
+                <td class="answer radio_wrap">
+                    <label class="radio">
+                        <input type="radio" name="sex" value="man">
+                        <div class="div_radio"></div>
+                        <p>&ensp;Кобель</p>
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="sex" value="women">
+                        <div class="div_radio"></div>
+                        <p>&ensp;Сука</p>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td class="item">Стиль</td>
+                <td class="answer radio_wrap">                    
+                    <label class="radio">
+                        <input type="radio" name="style">
+                        <div class="div_radio"></div>
+                        <p>&ensp;Традиционный (<strong>TS</strong>)</p>
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="style">
+                        <div class="div_radio"></div>
+                        <p>&ensp;Собирающий (<strong>CS</strong>)</p>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td class="item">Текущий класс</td>
+                <td class="answer radio_wrap">
+                    <label class="radio">
+                        <input type="radio" name="class" >
+                        <div class="div_radio"></div>
+                        <p>&ensp;1</p>
+                    </label>
+                    <label  class="radio">
+                        <input type="radio" name="class">
+                        <div class="div_radio"></div>
+                        <p>&ensp;2</p>
+                    </label>
+                    <label class="radio class">
+                        <input type="radio" name="class">
+                        <div class="div_radio"></div>
+                        <p>&ensp;3</p>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td class="item">Номер клейма</td>
+                <td class="answer"><input type="text" placeholder="1354687"></td>
+            </tr>
+            <tr>
+                <td class="item">Номер чипа</td>
+                <td class="answer"><input type="text" placeholder="1354687"></td>
+            </tr>
+            <tr>
+                <td class="item">Номер родословной</td>
+                <td class="answer"><input type="text" placeholder="6454"></td>
+            </tr>
+            <tr>
+                <td class="item">Номер книжки</td>
+                <td class="answer"><input placeholder="8745465 (36985, 258963)"></td>
+            </tr>
+            <tr>
+                <td class="item">Владелец собаки</td>
+                <td class="answer"><input placeholder="Иванов Иван"></td>
+            </tr>
+            <tr>
+                <td class="item">Тренер</td>
+                <td class="answer"><input placeholder="Тамарова Яна"></td>
+            </tr>
+            <tr>
+                <td class="item">Добавить фото</td>
+                <td class="answer">
+                    <label for="input" class="label_file">
+                            <span>Файл не выбран</span>
+                    </label>
+                    <input class="input__file" type="file" id="input" name="photo" multiple accept="image/*">   
+                </td>
+            </tr>
+        </table>
+        <div class="buttons">
+                <button type="submit" name="submit">Сохранить</button>
+        </div>
+    </form>
+</div>
+</div>
+</body>
+</html>

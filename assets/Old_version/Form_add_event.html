@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Добавить мероприятие</title>
+</head>
+<body>
+<div class="main__content">
+
+	<div class="wrap">
+		<ul class="breadcrumbs">
+			<li><a href="/Main_page">Главная</a></li>
+			<li><a href="/Profile_user">Личный кабинет</a></li>
+			<li><a href="/Form_add_event">Регистрация мероприятия</a></li>
+		</ul>
+		<div class="block"></div>
+		<h1>Регистрация мероприятия</h1>
+		<form action="" class="add_data">
+			<h2>Основная информация</h2>
+			<table class="add">
+				<tr>
+					<td class="item">Название</td>
+					<td class="answer">
+						<input type="text"></td>
+				</tr>
+				<tr>
+					<td class="item">Выбрать тип</td>
+					<td class="answer">
+						<select>
+							<option>
+								<p>Тип мероприятия</p>
+							</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td class="item">Дата</td>
+					<td class="answer"><input type="date"></td>
+				</tr>
+				<!-- <tr>
+					<td class="item">Дата окончания</td>
+					<td class="answer"><input type="date"></td>
+				</tr> -->
+				<tr>
+					<td class="item">Площадка</td>
+					<td class="answer">
+						<select>
+							<option>
+								<p>Выберите площадку из списка</p>
+							</option>
+					</select>
+					</td>
+				</tr>
+				<tr>
+					<td class="item">Организатор</td>
+					<td class="answer">
+						<input type="text"></td>
+				</tr>
+				<tr>
+					<td class="item">Телефон организатора</td>
+					<td class="answer"><input type="text"></td>
+				</tr>
+				<tr>
+					<td class="item">E-mail организатора</td>
+					<td class="answer"><input type="text"></td>
+				</tr>
+				<tr>
+					<td class="item">Максимальное количество участников</td>
+					<td class="answer"><input type="text"></td>
+				</tr>
+				<tr>
+					<td class="item">Взнос</td>
+					<td class="answer"><input type="text"></td>
+				</tr>
+				<!-- <tr>
+					<td class="item">Судья</td>
+					<td class="answer">
+						<select>
+							<option>
+								<p>Судья</p>
+							</option>
+					</select>
+					</td>
+				</tr> -->
+				<!-- <tr>
+					<td class="item">Стиль и класс состязания</td>
+					<td class="answer radio_wrap">
+						<input type="checkbox" id="answer_radio">
+						<label for="answer_radio" class="label_radio">Традиционный (TS)</label>
+						<label class="radio class m">
+							<input type="checkbox" name="class" class="input">
+							<div class="div_radio"></div>
+							&ensp;1
+						</label>
+						<label  class="radio class m">
+							<input type="checkbox" name="class" class="input">
+							<div class="div_radio"></div>
+							&ensp;2
+						</label>
+						<label class="radio class">
+							<input type="checkbox" name="class" class="input">
+							<div class="div_radio"></div>
+							&ensp;3
+						</label>
+						</div>
+						<div class="radio_wrap m">
+						<input type="checkbox" class="input" id="answer_radio2">
+						<label for="answer_radio2" class="label_radio">Собирающий (CS)</label>
+						<label class="radio class m">
+							<input type="checkbox" name="class" class="input">
+							<div class="div_radio"></div>
+							&ensp;1
+						</label>
+						<label  class="radio class m">
+							<input type="checkbox" name="class" class="input">
+							<div class="div_radio"></div>
+							&ensp;2
+						</label>
+						<label class="radio class m">
+							<input type="checkbox" name="class" class="input">
+							<div class="div_radio"></div>
+							&ensp;3
+						</label>
+						<label class="radio class">
+							<input type="radio" name="class" class="input">
+							<div class="div_radio"></div>
+							&ensp;Вне зачёта
+						</label>
+					</td>
+				</tr> -->
+				<!-- <tr>
+				<td class="item"></td> -->
+				<!-- <td class="answer td_detail"> 
+					<input type="radio" id="detail1" class="input" name="details_event">
+					<label for="detail1">TS-1</label>
+					<input type="radio" id="detail2" class="input" name="details_event">
+					<label for="detail2">TS-2</label>
+					<input type="radio" id="detail3" class="input" name="details_event">
+					<label for="detail3">TS-3</label>
+					<input type="radio" id="detail4" class="input" name="details_event">
+					<label for="detail4">CS-3</label>
+					<table class="table_details" id="table1">
+					<tr>
+						<td class="item">Стиль</td>
+						<td class="answer">Традиционный</td>
+					</tr>
+					<tr>
+						<td class="item">Класс</td>
+						<td class="answer">1</td>
+					</tr>
+					<tr>
+						<td class="item">Дата проведения</td>
+						<td class="answer"><input type="date" class="input"></td>
+					</tr>
+					<tr>
+						<td class="item">Количество участников</td>
+						<td class="answer"><input type="text" class="input input_start"></td>
+					</tr>
+					<tr>
+						<td class="item">Стартовый взнос</td>
+						<td class="answer"><input type="text" class="input input_start">&#8381;</td>
+					</tr>
+					<tr>
+						<td class="item">Судья</td>
+						<td class="answer"><select name="" id="" class="select">Выбрать из списка судью</select></td>
+					</tr>
+					<tr>
+						<td class="item">Упражнения</td>
+						<td class="answer">(Выбираем список упражнений)</td>
+					</tr>
+					</table>
+					<table class="table_details" id="table2">
+					<tr>
+						<td class="item">Стиль</td>
+						<td class="answer">Традиционный</td>
+					</tr>
+					<tr>
+						<td class="item">Класс</td>
+						<td class="answer">2</td>
+					</tr>
+					<tr>
+						<td class="item">Дата проведения</td>
+						<td class="answer"><input type="date" class="input"></td>
+					</tr>
+					<tr>
+						<td class="item">Количество участников</td>
+						<td class="answer"><input type="text" class="input input_start"></td>
+					</tr>
+					<tr>
+						<td class="item">Стартовый взнос</td>
+						<td class="answer"><input class="input input_start" type="text" name="" value="">&#8381;</td>
+					</tr>
+					<tr>
+						<td class="item">Судья</td>
+						<td class="answer"><select name="" id="" class="select">Выбрать из списка судью</select></td>
+					</tr>
+					<tr>
+						<td class="item">Упражнения</td>
+						<td class="answer">(Выбираем список упражнений)</td>
+					</tr>
+					</table>
+					<table class="table_details" id="table3">
+					<tr>
+						<td class="item">Стиль</td>
+						<td class="answer">Традиционный</td>
+					</tr>
+					<tr>
+						<td class="item">Класс</td>
+						<td class="answer">3</td>
+					</tr>
+					<tr>
+						<td class="item">Дата проведения</td>
+						<td class="answer"><input type="date" class="input"></td>
+					</tr>
+					<tr>
+						<td class="item">Количество участников</td>
+						<td class="answer"><input type="text" class="input input_start"></td>
+					</tr>
+					<tr>
+						<td class="item">Стартовый взнос</td>
+						<td class="answer"><input class="input input_start" type="text" name="" value="">&#8381;</td>
+					</tr>
+					<tr>
+						<td class="item">Судья</td>
+						<td class="answer"><select name="" id="" class="select">Выбрать из списка судью</select></td>
+					</tr>
+					<tr>
+						<td class="item">Упражнения</td>
+						<td class="answer">(Выбираем список упражнений)</td>
+					</tr>
+					</table>
+					<table class="table_details" id="table4">
+					<tr>
+						<td class="item">Стиль</td>
+						<td class="answer">Собирающий</td>
+					</tr>
+					<tr>
+						<td class="item">Класс</td>
+						<td class="answer">3</td>
+					</tr>
+					<tr>
+						<td class="item">Дата проведения</td>
+						<td class="answer"><input type="date" class="input"></td>
+					</tr>
+					<tr>
+						<td class="item">Количество участников</td>
+						<td class="answer"><input type="text" class="input input_start"></td>
+					</tr>  <tr>
+						<td class="item">Стартовый взнос</td>
+						<td class="answer"><input class="input input_start" type="text" name="" value="">&#8381;</td>
+						</tr>
+					<tr>
+						<td class="item">Судья</td>
+						<td class="answer"><select name="" id="" class="select">Выбрать из списка судью</select></td>
+					</tr>
+					<tr>
+						<td class="item">Упражнения</td>
+						<td class="answer">(Выбираем список упражнений)</td>
+					</tr>
+					</table>
+				</td>-->
+			</table>
+			<h2 class="prewiev__h2">Список</h2>
+			<div class="prewiev">
+				<a href="/data">Традиционный стиль, 3 класс, 10.00</a>
+				<section>
+					<table class="add">
+						<tr>
+							<td class="item">Стиль</td>
+							<td class="answer">
+								<select name="" id="">
+									<option value="">Традиционный</option>
+									<option value="">Собирающий</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td class="item">Класс</td>
+							<td class="answer">
+								<select name="" id="">
+									<option value=""></option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td class="item">Время начала</td>
+							<td class="answer"><input type="text"></td>
+						</tr>
+						<tr>
+							<td class="item">Судья</td>
+							<td class="answer">
+								<select name="" id="">
+									<option value=""></option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td class="item">Максимальное количество участников</td>
+							<td class="answer"><input type="text"></td>
+						</tr>
+					
+						<!-- <tr>
+							<td class="item">Упражнения</td>
+							<td class="answer">
+								<select name="" id="">
+									<option value=""></option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td class="item">Маршрут</td>
+							<td class="answer"><input type="text"></td>
+						</tr> -->
+						<tr>
+							<td class="item">Формат протокола</td>
+							<td class="answer">
+								<label for="table_file" class="label_file">
+									<span>Загрузить протокол ????</span>	
+									<input type="file" id="table_file" type="file" name="table" multiple="" accept=".xlsx">
+								</label>
+							</td>
+						</tr>
+					</table>
+					<div class="buttons event__button">
+						<button type="submit" name="submit">Сохранить</button>
+					</div>
+				</section>
+					
+			
+				<div>
+					<a href="">
+						<img src="<?php echo get_template_directory_uri(); ?>/Image/Plus.png" alt="">		
+						<p>Добавить список</p>
+					</a>
+				</div>
+			</div>
+						
+			<div class="buttons">
+						<button type="submit" name="submit">Зарегистрировать</button>
+					</div>
+		</form>
+	</div>
+</div>
+</body>
+</html>

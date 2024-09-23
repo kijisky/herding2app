@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Профиль собаки</title>
+</head>
+<body>
+
+<div class="wrap">
+	<ul class="breadcrumbs">
+		<li>
+			<a href="/Main_page">Главная</a>
+		</li>
+		<li>
+			<a href="/Dogs">Собаки</a>
+		</li>
+		<li>
+			<a href="/Profile_dog">Профиль собаки</a>
+		</li>
+	</ul>
+	<div class="block"></div>
+	<h1>Основная информация о собаке</h1>
+	<a href="#open_modal">
+        <img src="<?php echo get_template_directory_uri(); ?>/Image/edit.png" alt="Редактировать">
+    </a>
+	<div class="data_block">
+		<div class="user_photo">
+			<img src="<?php echo get_template_directory_uri(); ?>/Image/No-photo.png" alt="Фото питомца">
+		</div>
+		<table class="data">
+			<tr>
+				<td class="item">Полная кличка</td>
+				<td class="answer">Frederick Defender Topli</td>
+			</tr>
+			<tr>
+				<td class="item">Краткая кличка</td>
+				<td class="answer">Fred</td>
+			</tr>
+			<tr>
+				<td class="item">Порода</td>
+				<td class="answer">Aussie</td>
+			</tr>
+			<tr>
+				<td class="item">Дата рождения</td>
+				<td class="answer">12.12.2015</td>
+			</tr>
+			<tr>
+				<td class="item">Город проживания</td>
+				<td class="answer">Санкт-Петербург</td>
+			</tr>
+			<tr>
+				<td class="item">Пол</td>
+				<td class="answer">Кобель</td>
+			</tr>
+			<tr>
+				<td class="item">Стиль, класс</td>
+				<td class="answer"><strong>TS3</strong></td>
+			</tr>
+			<tr>
+			<td class="item">Номер клейма/чипа</td>
+			<td class="answer">65465315456/2121</td>
+			</tr>
+			<tr>
+			<td class="item">Номер родословной</td>
+			<td class="answer">6355</td>
+			</tr>
+			<tr>
+			<td class="item">Номер книжки</td>
+			<td class="answer">98</td>
+			</tr>
+			<tr>
+			<td class="item">Владелец собаки</td>
+			<td class="answer"><a href="#">Иванов Пётр</a></td>
+			</tr>
+			<tr>
+			<td class="item">Тренер</td>
+			<td class="answer"><a href="#">Бернард Столичный</a></td>
+			</tr>
+		</table>
+	</div>
+	<div class="block"></div>
+	<h1 class="h1">Список мероприятий</h1>
+	<select class="choose_month" name="">
+		<option value="">год</option>
+	</select>
+	<form action="" id="competition">
+		<table class="enumeration">
+			<tr>
+				<th>Дата</th>
+				<th>Описание мероприятия</th>
+				<th>Проводник</th>
+				<th>Стиль/Класс</th>
+				<th>Баллы</th>
+				<th>Место</th>
+			</tr>
+			<tr>
+				<td>08.01.2021г</td>
+				<td>{координаты} Санкт-Петербург, Испытания ТПИ, Лагерь, Состязания TH3, CS3</td>
+				<td>Мария Голубцова</td>
+				<td>CS3</td>
+				<td>95</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>04.07.2020</td>
+				<td>Владимирская область, г Александров стадион «Орбита» ( Фаэтон),ул 1.я Парковая Чемпионат России (CACIOB и квалификационные состязания)</td>
+				<td>Михаил Аверьянов</td>
+				<td>CS2</td>
+				<td>150</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>03.04.2020г</td>
+				<td>Заостровье, Испытания ТПИ, Лагерь, Состязания TH3, CS3</td>
+				<td>Иванова Светлана</td>
+				<td>TS1</td>
+				<td>20</td>
+				<td>7</td>
+			</tr>
+			<tr>
+				<td>17.02.2020г.</td>
+				<td>Красный Лес, Испытания ТПИ, Лагерь, Состязания TH3, CS3
+				</td>
+				<td>Иванова Светлана</td>
+				<td>TS3</td>
+				<td>Снят</td>
+				<td>Снят</td>
+			</tr>
+		</table>
+		<div class="next__page">
+			<a href="" class="disabled">Предыдущая страница</a>
+			<a href="">1</a>
+			<a href="">2</a>
+			<a class="page__number" href="">3</a>
+			<a href="">4</a>
+			<a href="">5</a>
+			<a href="">6</a>
+			<a href="">Следующая страница</a>
+		</div>
+	</form>
+</div>
+	</div>
+	<?php get_footer(); ?>
+
+	<div id="open_modal" class="detail">
+		<div class="modal_window">
+			<a href="#close_modal">
+				<img src="<?php echo get_template_directory_uri(); ?>/Image/close.png" alt="Закрыть">
+			</a>
+			<h2>Редактирование информации о собаке</h2>
+			<form class="form_edit" action="/Profile_dog" method="post">
+				<table class="edit">
+					<tr>
+						<td class="item">Полная кличка</td>
+						<td class="answer"><input type="text" class="input"></td>
+					</tr>
+					<tr>
+						<td class="item">Краткая кличка</td>
+						<td class="answer"><input type="text" class="input"></td>
+					</tr>
+					<tr>
+						<td class="item">Порода</td>
+						<td class="answer">
+							<select>
+								<option>
+									<p>Выберите название породы из списка</p>
+								</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td class="item">Дата рождения</td>
+						<td class="answer"><input type="date"></td>
+					</tr>
+					<tr>
+						<td class="item">Город проживания</td>
+						<td class="answer">
+							<select>
+								<option>
+									<p>Выберите город из списка</p>
+								</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td class="item">Пол</td>
+						<td class="answer radio_wrap">
+							<label class="radio">
+								<input type="radio" name="sex"value="man">
+								<div class="div_radio"></div>
+								<p>&ensp;Кобель</p>
+							</label>
+							<label class="radio">
+								<input type="radio" name="sex" value="women">
+								<div class="div_radio"></div>
+								<p>&ensp;Сука</p>
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<td class="item">Стиль</td>
+						<td class="answer radio_wrap">
+							<label class="radio"><input type="radio" name="style">
+								<div class="div_radio"></div>
+								<p>&ensp;Традиционный (<strong>TS</strong>)</p>
+							</label>
+							<label  class="radio">
+								<input type="radio" name="style">
+								<div class="div_radio"></div>
+								<p>&ensp;Собирающий (<strong>CS</strong>)</p>
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<td class="item">Текущий класс</td>
+						<td class="answer radio_wrap">
+							<label class="radio">
+								<input type="radio" name="class">
+								<div class="div_radio"></div>
+								<p>&ensp;1</p>
+							</label>
+							<label  class="radio">
+								<input type="radio" name="class">
+								<div class="div_radio"></div>
+								<p>&ensp;2</p>
+							</label>
+							<label class="radio">
+								<input type="radio" name="class">
+								<div class="div_radio"></div>
+								<p>&ensp;3</p>
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<td class="item">Номер клейма/чипа</td>
+						<td class="answer"><input type="text"></td>
+					</tr>
+					<tr>
+						<td class="item">Номер родословной</td>
+						<td class="answer"><input type="text"></td>
+					</tr>
+					<tr>
+						<td class="item">Номер книжки</td>
+						<td class="answer"><input type="text"></td>
+					</tr>
+					<tr>
+						<td class="item">Владелец собаки</td>
+						<td class="answer"><input type="text"></td>
+					</tr>
+					<tr>
+						<td class="item">Тренер</td>
+						<td class="answer"><input type="text"></td>
+					</tr>
+					<tr>
+						<td class="item">Загрузить фото</td>
+						<td class="answer">
+							<label for="input" class="label_file">
+									<span>Файл не выбран</span>
+							</label>
+							<input class="input__file" type="file" id="input" name="photo" multiple accept="image/*">   
+                		</td>
+					</tr>
+				</table>
+				<div class="buttons">
+					<button>Сохранить изменения</button>
+				</div>
+			</form>
+		</div>		
+	</div>
+</body>
+</html>

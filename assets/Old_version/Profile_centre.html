@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Профиль центра</title>
+</head>
+<body>
+    <div class="wrap">
+        <ul class="breadcrumbs">
+            <li><a href="/Main_page">Главная</a></li>
+            <li><a href="/Clubs">Центры</a></li>
+            <li><a href="/Profile_centre">Страница центра</a></li>
+        </ul>
+        <div class="block"></div>
+        <h1>Общая информация о центре</h1>
+        <a href="#open_modal">
+            <img src="<?php echo get_template_directory_uri(); ?>/Image/edit.png" alt="Редактировать">
+        </a>
+        <div class="data_block">
+            <div class="user_photo">
+                <img class="user_photo_img" src="<?php echo get_template_directory_uri(); ?>/Image/No-photo.png" alt="Логотип центра">
+            </div>
+            <table class="data">
+                <tr>
+                    <td class="item">Название</td>
+                    <td class="answer">Объединённая Организация ОДДДВВВ</td>
+                </tr>
+                <tr>
+                    <td class="item">Тип</td>
+                    <td class="answer">Пастуший центр</td>
+                </tr>
+                <tr>
+                    <td class="item">Адрес</td>
+                    <td class="answer"><a href="#map">Москва, Гостиничная ул.9</a></td>
+                </tr>
+                <tr>
+                    <td class="item">Руководитель</td>
+                    <td class="answer"><a href="">Человек1</a></td>
+                </tr>
+                <tr>
+                    <td class="item">Представитель</td>
+                    <td class="answer"><a href="/Profile_user">Человек2</a></td>
+                </tr>
+                <tr>
+                    <td class="item">Телефоны</td>
+                    <td class="answer">222-3331, 8-964-666-55-33</td>
+                </tr>
+                <tr>
+                    <td class="item">E-mail</td>
+                    <td class="answer"><a href="">herding@herding.ru</a></td>
+                </tr>
+                <tr>
+                    <td class="item">Сайт/страница</td>
+                    <td class="answer"><a href="">www.ooodddvvv.ru</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="map" id="map">
+            <img src="<?php echo get_template_directory_uri(); ?>/Image/map.png" alt="" class="img_map">
+            <span>Координаты: 55.84600990587816, 37.57971563641533</span>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2239.9655193993685!2d37.57757231539537!3d55.84591299227503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b5364d4f308385%3A0xb816fdb61de23b0f!2z0JPQvtGB0YLQuNC90LjRh9C90LDRjyDRg9C7LiwgOSwgNSDRjdGC0LDQtiwg0JzQvtGB0LrQstCwLCBNb3Njb3cgT2JsYXN0LCAxMjcxMDY!5e0!3m2!1sru!2sru!4v1618574940618!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="block"></div>
+        <h1>Подробная информация</h1>
+        <h2>Список тренеров</h2>
+        <div class="form">
+            <table class="finding">
+                <tr>
+                    <td>
+                        <a href="">Игнатьев Артём &nbsp;(традиционный стиль, TS)</a>       
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="">Макаров Андрей&nbsp;(традиционный стиль, TS)</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="">Алексеева Инна&nbsp;(собирающий стиль, CS)</a>
+                    </td>  
+                </tr>
+            </table>
+            </div>       
+        <h2>Список мероприятий</h2>
+        <div class="form">
+            <table class="enumeration">
+                <tr>
+                    <th>Дата</th>
+                    <th>Название</th>
+                    <th>Результаты</th>
+                </tr>
+                <tr>
+                    <td>5-7.04.2019</td>
+                    <td><a href="">Событие 1</a></td>
+                    <td><a href="">Результаты</a></td>
+                </tr>
+                <tr>
+                    <td>Дата2</td>
+                    <td><a href="/Event_card">Чемпионат России (CACIOB и квалификационные состязания)</a></td>
+                    <td><a href="">Результаты</a></td>
+                </tr>
+                <tr>
+                    <td>Дата3</td>
+                    <td><a href="">Событие3</a></td>
+                    <td><a href="">Результаты</a></td>
+                </tr>
+            </table>
+            </div>
+        
+
+    </div>
+</div>
+<?php get_footer(); ?>
+    <div id="open_modal" class="detail">
+        <div class="modal_window">
+            <a href="#close_modal">
+                <img src="<?php echo get_template_directory_uri(); ?>/Image/close.png" alt="Закрыть">
+            </a>
+            <h2>Редактирование информации</h2>
+            <form class="form_edit" action="/Profile_centre" method="post">
+                <table class="edit">
+                    <tr>
+                        <td class="item">Название</td>
+                        <td class="answer"><input type="text" class="input"></td>
+                    </tr>
+                    <tr>
+                        <td class="item">Тип</td>
+                        <td class="answer">
+                            <select name="">
+                                <option value="">Выбрать тип</option>
+                                <option value="">Официальный организатор</option>
+                                <option value="">Пастуший центр</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="item">Адрес</td>
+                        <td class="answer"><input type="text" class="input"></td>
+                    </tr>
+                    <tr>
+                        <td class="item">Руководитель</td>
+                        <td class="answer">
+                            <select name="">
+                                <option value="">Добавить руководителя</option>
+                                <option value="">Человек1</option>
+                                <option value="">Человек2</option>
+                                <option value="">Человек3</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="item">Представитель</td>
+                        <td class="answer">
+                            <select name="">
+                                <option value="">Добавить представителя</option>
+                                <option value="">Игнатьев Виталий</option>
+                                <option value="">Соловьёв Дмитрий</option>
+                                <option value="">Макарова Ирина</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                    <td class="item">Телефоны</td>
+                    <td class="answer"><input type="text" required></td>
+                    </tr>
+                    <tr>
+                    <td class="item">E-mail</td>
+                    <td class="answer"><input type="text" required></td>
+                    </tr>
+                    <tr>
+                    <td class="item">Сайт/страница в интернете</td>
+                    <td class="answer"><input type="text"></td>
+                    </tr>
+                    <tr>
+                    <td class="item">Загрузить логотип/картинку/фото</td>
+                    <td class="answer">
+                    <label for="input" class="label_file">
+                            <span>Файл не выбран</span>
+                    </label>
+                    <input class="input__file" type="file" id="input" name="photo" multiple accept="image/*">   
+                </td>
+                    </tr>
+                </table>
+                <div class="buttons">
+                    <button>Сохранить изменения</button>
+                </div>
+        </form>
+        </div>
+  </div>
+</body>
+</html>

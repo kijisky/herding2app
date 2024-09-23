@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Добавить пользователя</title>
+</head>
+<body>
+<div class="wrap">
+    <ul class="breadcrumbs">
+        <li><a href="/Main_page">Главная</a></li>
+        <li><a href="/Profile_user">Личный кабинет</a></li>
+        <li><a href="/Form_add_user">Добавить пользователя</a></li>
+    </ul>
+    <div class="block"> </div>
+    <h1>Создание профиля пользователя</h1>
+    <form action="" class="add_data">
+        <table class="add">
+            <tr>
+                <td class="item">Фамилия</td>
+                <td class="answer">
+                    <input type="text"></td>
+            </tr>
+            <tr>
+                <td class="item">Имя</td>
+                <td class="answer">
+                    <input type="text"></td>
+            </tr>
+            <tr>
+                <td class="item">Дата рождения</td>
+                <td class="answer">
+                    <input type="date" name="date"></td>
+            </tr>
+            <tr>
+                <td class="item">Город проживания</td>
+                <td class="answer">
+                    <select>
+                        <option>
+                            <p>Выберите город из списка</p>
+                        </option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="item">Телефон</td>
+                <td class="answer">
+                    <input type="text" required></td>
+            </tr>
+            <tr>
+                <td class="item">e-mail</td>
+                <td class="answer">
+                    <input type="text" required></td>
+            </tr>
+            <tr>
+                <td class="item">Сайт/страница</td>
+                <td class="answer">
+                    <input type="text" placeholder="www.mypage.ru"></td>
+            </tr>
+            <tr>
+                <td class="item">Деятельность*</td>
+                <td class="answer">
+                    <select>
+                        <option>
+                            <p>Выберите из списка</p>
+                        </option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="item">Добавить фото</td>
+                <td class="answer">
+                    <label for="input" class="label_file">
+                            <span>Файл не выбран</span>
+                    </label>
+                    <input class="input__file" type="file" id="input" name="photo" multiple accept="image/*">   
+                </td>
+            </tr>
+        </table>
+        <div class="buttons">
+            <button type="submit" name="submit" class="sendToServer">Сохранить</button>
+        </div>
+    </form>
+    <div class="block"></div>
+    <div class="note">
+        <p>&#128276;&nbsp;Судья - участие в состязаниях в качестве судьи.</p>
+        <p>Организатор мероприятий - пользователь является ответственным лицом за организацию и проведение 
+            мероприятий, именно его контакты указываются при регистрации мероприятия.
+        </p>
+        <p>Представитель сообщества - пользователь является контактным лицом объединения/группы людей, 
+            связанных общим интересом (пастьба).
+        </p>
+        <p>В случае выбора одной из этих категорий администратору сайта
+            автоматически направляется письмо для подтверждения роли.
+        </p>
+    </div> 
+</div>
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,1104 @@
+/* .wrap_event_card {
+  max-width: 860px;
+  margin-top: 30px;
+  margin-left: 70px;
+} */
+
+/* .wrap>h1 {
+  margin: 0 15px 50px 30px;
+} */
+
+/* .wrap_calendar h1.h1 {
+
+  margin: 80px 0 50px;
+} */
+
+
+
+/* .dogs_breed {
+  font-family: 'Garamond';
+  font-size: 14px;
+  color: #000;
+} */
+
+/* .a_add_dog {
+  margin: 0px 30px 0px 0px;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 70%);
+  display: inline-block;
+  color: #000;
+  font-size: 13px;
+  background-color: rgba(253, 192, 7, 0.7);
+  border-radius: 4px;
+  padding: 0px 10px;
+  line-height: 31px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.a_add_dog:hover {
+  background-color: rgba(253, 192, 7, .7);
+  box-shadow: none;
+} */
+
+/* .show_all_events input[type=checkbox] {
+  margin-right: 11px;
+} */
+/* .name_list_profile h1:focus, select {
+  outline: none;
+} */
+/* .event {
+  margin: 20px 0px 80px;
+} */
+
+/* .tr_first th {
+  padding: 10px;
+  border-top: 2px solid #096945;
+  border-bottom: 2px solid #096945;
+} */
+/* .enumeration td {
+  line-height: 20px;
+  text-align: center;
+  padding: 25px 3px;
+  word-wrap: break-word;
+} */
+/* .enumeration tr:not(:first-child):hover {
+  background-color:  rgba(9,105,69, 0.6);
+  color: #fff;
+}
+tr:not(:first-child):hover .colored {
+  background-color: #fff;
+  color: #000;
+} */
+/* .th_date_bold {
+  font-weight: bold;
+} */
+/* .description {
+  width: 35%;
+} */
+/* .last_line {
+  border-bottom: 1px solid #096945;
+}
+.last_line:hover {
+background-color: rgba(9,105,69, .2);
+} */
+
+/* .add_form select  {
+  font-size: 13px;
+} */
+ /* .dog_s_foto p {
+  height: 29px;
+  list-style-type: none;
+  text-align: right;
+  font-size: 13px;
+  margin: 0px 22px 1px 0;
+  white-space: nowrap;
+} */
+/* .select, .select option {
+  padding: 3px 13px;
+  margin-bottom: 4px;
+} */
+/* .select option {
+  border: 1px solid rgba(9,105,69, 1);
+} */
+
+/* .select, .select option {
+  padding: 3px 13px;
+  margin-bottom: 4px;
+} */
+/* .show_event {
+  margin: 35px 0px;
+  box-shadow: 0px 1px 4px rgb(0 0 0 / 57%);
+  transition: 0.3s;
+} */
+/* .date {
+  font-size: 20px;
+  font-weight: bolder;
+  display: inline;
+} */
+/* .a_show_event {
+  text-decoration: none;
+  color: #000;
+}
+.show_event:hover {
+  box-shadow: none;
+  background-color: rgba(9,105,69, .3);
+} */
+ /* .__h1 {
+  text-align: center;
+} */
+/* .list_of_members tr td a:hover, .search_table tr td>a:hover {
+  filter: drop-shadow(1px 0px 0px rgba(0, 0, 0, 1));
+  transition: 0.1s;
+} */
+
+/* .search_p {
+  color: rgb(160, 160,160);
+  text-align: right;
+  font-style: italic;
+} */
+/* .search_table {
+  table-layout: fixed;
+  width: 90%;
+} */
+/* .none {
+  display: none;
+}
+.search_table tr>td {
+  padding: 7px 15px;
+  text-align: center;
+}
+.search_table tr td>a {
+  display: block;
+  color: #000;
+}
+.search_table tr:not(:first-child):hover {
+  background-color: rgba(9,105,69, .2);
+  color: #000;
+}
+p>a {
+  color: #000;
+} */
+/* .table_edit_profile tr .input:hover,
+.table_edit_profile .select:hover,
+.table_edit_profile .select:focus {
+  cursor: pointer;
+  border: 1px solid rgb(9,105,69);
+  opacity: 1;
+} */
+/* .table_edit_profile tr .input:focus {
+  outline: none;
+  border: 0.5px solid rgb(9,105,69);
+  opacity: 1;
+} */
+/* .foto_load:focus {
+  outline: none;
+} */
+/* .search_form>p {
+  text-align: left;
+  font-size: 13px;
+} */
+/* .table_results {
+  table-layout: fixed;
+} */
+/* .scroll {
+  width: 1440px;
+  margin: 20px 10px 30px;
+}*/
+/* .table_results tr td a:visited {
+ color: rgb(9,105,69);
+} */
+
+/* .select_breed {
+  padding: 2px 0 4px 10px;
+
+  width: 100%;
+} */
+/* .sex {
+  width: auto;
+  margin: 3px 0 12px 15px;
+} */
+/* .m {
+  margin-right: 30px;
+} */
+
+/* .table_profile_dog {
+  width: 100%;
+  margin: 0 0 15px 30px;
+  border-collapse: collapse;
+} */
+/* .table_profile_dog td.ul_li_profile {
+  border: none;
+} */
+/* .name_list_profile+.competition {
+  margin: 50px 30px 100px 0px;
+} */
+
+/* .choose_date {
+  font-size: 13px;
+} */
+/* .foto_file_user {
+  font-family: 'Garamond';
+  font-size: 13px;
+} */
+/* .photo_load {
+
+  display: block;
+  font-size: 13px;
+  color: grey;
+} */
+/* .photo_load:hover {
+  color:rgb(0, 0, 0);
+} */
+/* .table_edit_profile tr:hover {
+  background-color: transparent;
+  color: #000;
+} */
+/* .button_save button {
+  line-height: 32px;
+} */
+
+/* .p_dogs_name {
+  color: #000;
+} */
+/* .a_dog:hover {
+  text-decoration: underline;
+} */
+
+/* .a_aside:active {
+  outline: none;
+  filter: none;
+
+} */
+
+/* ::placeholder {
+  color: #000;
+} */
+/* .dog:hover {
+  box-shadow: 1px 1px 2px 1px rgb(20 0 0 / 55%);
+} */
+
+/* .radio input {
+  display: none;
+} */
+/* .radio:last-child {
+  margin-bottom: 3px;
+} */
+
+/* :focus::placeholder {
+  color: #000;
+} */
+
+/* .input_dog_s_foto {
+  display: block;
+  background-color: rgb(255 255 255);
+  /* margin-top: 3px; */
+  /* font-size: 13px;
+  outline: none;
+} */
+/* .input_dog_s_foto:hover {
+  opacity: 1;
+}  */
+/* div table.calendar tr:hover {
+  background-color: transparent;
+  color: #000;
+} */
+/* .event_description:hover {
+  background-color: rgba(9,105,69, 1);
+  -webkit-transition: 0.3s 0.1s;
+} */
+
+
+/* .wrap {
+  display: flex;
+  margin: 20px 0 60px 50px;
+} */
+/* .list h1, .name_list_profile h1 {
+  font-size: 24px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+} */
+
+<!-- <tr>
+                    <td>Дата1, время1</td>
+                    <td>Описание1</td>
+                    <td>Площадка1</td>
+                    <td>Организатор1, телефон1</td>
+                    <td>
+                        <a class="a_event_description" href="" title="Перейти на страницу с регистрацией">Открыта регистрация</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Дата2, время2</td>
+                    <td>Описание2</td>
+                    <td>Площадка2</td>
+                    <td>Организатор2, контакты2</td>
+                    <td>
+                        <a class="a_event_description" href="" title="Перейти на страницу с регистрацией">Открыта регистрация</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Дата3, время3</td>
+                    <td>Описание3</td>
+                    <td>Площадка3</td>
+                    <td>Организатор3, телефон3</td>
+                    <td>
+                        <a class="a_event_description" href="" title="Перейти на страницу с регистрацией">Открыта регистрация</a>
+                    </td>
+                </tr> -->
+
+                <!-- <div class="show_event wrap_events_list" title="Нажмите, чтобы перейти к описанию мероприятия">
+                <a class="a_show_event" href="#">
+                    <p class="date">2 января 2020 года</p> - Семинар по безопасности жизнедеятельности в африканских странах
+                </a>
+            </div>
+            <div class="show_event wrap_events_list" title="Нажмите, чтобы перейти к описанию мероприятия">
+                <a class="a_show_event " href="Event_card.html">
+                    <p class="date">6-8 января 2020 года</p> - Чемпионат России (CACIOB и квалификационные состязания)
+                </a>
+            </div>
+            <div class="show_event wrap_events_list" title="Нажмите, чтобы перейти к описанию мероприятия">
+                <a class="a_show_event" href="#">
+                    <p class="date">26 января 2020 года</p> - Лагерь, испытания ТПИ, чай с пирожками
+                </a>
+            </div> -->
+            <!-- <form class="" action="index.html" method="post">
+            <p><input type="date" class="input" placeholder="">Выберите начало периода</p>
+            <p><input type="date" class="input" placeholder="">Выберите окончание периода</p>
+            <select class="select select_city">
+              <option class="first_option">
+                <p>Выберите место проведения из списка</p>
+              </option>
+            </select>
+            <button class="button search_button">Показать</button>
+          </form> -->
+
+          /* .search {
+  margin: 75px 0;
+}
+.search_button {
+  margin: 20px 0 0 0px;
+  display: block;
+  font-size: 15px;
+} */
+/* .find {
+  margin-bottom: 30px;
+  background-color: rgba(9,105,69, 0.6);
+  color: #fff;
+  display: inline-block;
+}
+.find:hover {
+  background-color: rgba(9,105,69, 1);
+  color: #fff;
+} */
+/* .table_club_profile {
+  border-collapse: collapse;
+}
+.table_club_profile .option {
+  width: 35%;
+  padding-left: 30px;
+  padding-right: 15px;
+  background-color: #fff;
+  color: #000;
+  white-space: nowrap;
+} */
+<!-- <h2>6 января 2020 г., собирающий стиль</h2> -->
+<!-- <div class="lists">
+    <form action="">
+        <h2> 1 класс</h2>
+        <div class="data_list">
+            <table class="participant">     
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <a href="">Проводник1 Фамилия1 Имя1/</a>
+                        <a href="">Собака1 Кличка1 (порода1)</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <a href="">Проводник1 Фамилия1 Имя1/</a>
+                        <a href="">Собака1 Кличка1 (порода1)</a>
+                    </td>
+                </tr><tr>
+                    <td>1</td>
+                    <td>
+                        <a href="">Проводник1 Фамилия1 Имя1/</a>
+                        <a href="">Собака1 Кличка1 (порода1)</a>
+                    </td>
+                </tr><tr>
+                    <td>1</td>
+                    <td>
+                        <a href="">Проводник1 Фамилия1 Имя1/</a>
+                        <a href="">Собака1 Кличка1 (порода1)</a>
+                    </td>
+                </tr><tr>
+                    <td>1</td>
+                    <td>
+                        <a href="">Проводник1 Фамилия1 Имя1/</a>
+                        <a href="">Собака1 Кличка1 (порода1)</a>
+                    </td>
+                </tr><tr>
+                    <td>1</td>
+                    <td>
+                        <a href="">Проводник1 Фамилия1 Имя1/</a>
+                        <a href="">Собака1 Кличка1 (порода1)</a>
+                    </td>
+                </tr><tr>
+                    <td>1</td>
+                    <td>
+                        <a href="">Проводник1 Фамилия1 Имя1/</a>
+                        <a href="">Собака1 Кличка1 (порода1)</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <a href="">Проводник2 Фамилия2 Имя2/</a>
+                        <a href="">Собака2 Кличка2 (порода2)</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <a href="">Проводник3 Фамилия3 Имя3/</a>
+                        <a href="">Собака3 Кличка3 (порода3)</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <a href="">Проводник4 Фамилия4 Имя4/</a>
+                        <a href="">Собака4 Кличка4 (порода4)</a>
+                    </td>
+                </tr>
+            </table>
+            </div>
+        <div class="reserve">
+                <a href=""><p>Традиционный стиль, 2 класс, резервный список</p></a>
+                <a href=""><img src="<?php echo get_template_directory_uri(); ?>/Image/Arr_queue.png" alt="Развернуть"></a>
+            </div>
+        </form>
+    <form action="">           
+        <h2> 2 класс</h2>   
+        <div class="data_list">
+            <table class="participant">    
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <a href="">Проводник4 Фамилия4 Имя4/</a>
+                        <a href="">Собака4 Кличка4 (порода4)</a>
+                    </td>
+                </tr>
+                </table>
+            </div>  
+        <div class="reserve">
+                <a href=""><p>Традиционный стиль, 2 класс, резервный список</p></a>
+                <a href=""><img src="<?php echo get_template_directory_uri(); ?>/Image/Arr_queue.png" alt="Развернуть"></a>
+            </div>
+        </form>
+    <form action="">
+        <h2>3 класс</h2> 
+        <div class="data_list">
+            <table class="participant">                
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <a href="">Проводник3 Фамилия3 Имя3/</a>
+                        <a href="">Собака3 Кличка3 (порода3)</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <a href="">Проводник4 Фамилия4 Имя4/</a>
+                        <a href="">Собака4 Кличка4 (порода4)</a>
+                    </td>
+                </tr> <tr>
+                    <td>1</td>
+                    <td>
+                        <a href="">Проводник1 Фамилия1 Имя1/</a>
+                        <a href="">Собака1 Кличка1 (порода1)</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <a href="">Проводник2 Фамилия2 Имя2/</a>
+                        <a href="">Собака2 Кличка2 (порода2)</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <a href="">Проводник3 Фамилия3 Имя3/</a>
+                        <a href="">Собака3 Кличка3 (порода3)</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <a href="">Проводник4 Фамилия4 Имя4/</a>
+                        <a href="">Собака4 Кличка4 (порода4)</a>
+                    </td>
+                </tr>
+                </table>
+            </div>   
+            <div class="reserve">
+                <a href=""><p>Традиционный стиль, 2 класс, резервный список</p></a>
+                <a href=""><img src="<?php echo get_template_directory_uri(); ?>/Image/Arr_queue.png" alt="Развернуть"></a>
+            </div>            
+        </form>
+    </div>
+<h2>7 января 2020 г.</h2> -->
+<!-- <div class="lists">   
+    <form action="">
+        <h2>Собирающий стиль, 3 класс</h2>
+        <div class="data_list">
+            <table class="participant">   
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <a href="">Проводник1 Фамилия1 Имя1/</a>
+                        <a href="">Собака1 Кличка1 (порода1)</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <a href="">Проводник2 Фамилия2 Имя2/</a>
+                        <a href="">Собака2 Кличка2 (порода2)</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <a href="">Проводник3 Фамилия3 Имя3/</a>
+                        <a href="">Собака3 Кличка3 (порода3)</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <a href="">Проводник4 Фамилия4 Имя4/</a>
+                        <a href="">Собака4 Кличка4 (порода4)</a>
+                    </td>
+                </tr>
+                </table>
+            </div>
+            <div class="reserve">
+                <a href=""><p>Традиционный стиль, 2 класс, резервный список</p></a>
+                <a href=""><img src="<?php echo get_template_directory_uri(); ?>/Image/Arr_queue.png" alt="Развернуть"></a>
+            </div>
+        </form>
+    <form action="">
+        <h2>Собирающий стиль, 1 класс</h2>
+        <div class="data_list">
+            <table class="participant">
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <a href="">Проводник1 Фамилия1 Имя1/</a>
+                        <a href="">Собака1 Кличка1 (порода1)</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <a href="">Проводник2 Фамилия2 Имя2/</a>
+                        <a href="">Собака2 Кличка2 (порода2)</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <a href="">Проводник3 Фамилия3 Имя3/</a>
+                        <a href="">Собака3 Кличка3 (порода3)</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <a href="">Проводник4 Фамилия4 Имя4/</a>
+                        <a href="">Собака4 Кличка4 (порода4)</a>
+                    </td>
+                </tr>
+                </table>
+            </div>
+            <div class="reserve">
+                <a href=""><p>Традиционный стиль, 2 класс, резервный список</p></a>
+                <a href=""><img src="<?php echo get_template_directory_uri(); ?>/Image/Arr_queue.png" alt="Развернуть"></a>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="lists">
+    <form action="">
+        <h2>Традиционный стиль, 1 класс (резервный список)</h2>
+        <table class="participant">
+            <tr>
+                <td>1</td>
+                <td><a href="">Проводник1</a><a href="">Собака1(порода1)</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="">Проводник2</a><a href="">Собака2(порода2)</a></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="">Проводник3</a><a href="">Собака3(порода3)</a></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><a href="">Проводник4</a><a href="">Собака4(порода4)</a></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><a href="">Проводник5</a><a href="">Собака5(порода5)</a></td>
+            </tr>
+            </table>
+        </form>
+    <form action="">
+        <h2>Традиционный стиль, 2 класс (резервный список)</h2>
+        <table class="participant">
+            <tr>
+                <td>1</td>
+                <td><a href="">Проводник1</a><a href="">Собака1(порода1)</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="">Проводник2</a><a href="">Собака2(порода2)</a></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="">Проводник3</a><a href="">Собака3(порода3)</a></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><a href="">Проводник4</a><a href="">Собака4(порода4)</a></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><a href="">Проводник5</a><a href="">Собака5(порода5)</a></td>
+            </tr>
+        </table>
+        </form>
+    <form action="">
+        <h2>Традиционный стиль, 3 класс (резервный список)</h2>
+        <table class="participant">
+            <tr>
+                <td>1</td>
+                <td><a href="">Проводник1</a><a href="">Собака1(порода1)</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="">Проводник2</a><a href="">Собака2(порода2)</a></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="">Проводник3</a><a href="">Собака3(порода3)</a></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><a href="">Проводник4</a><a href="">Собака4(порода4)</a></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><a href="">Проводник5</a><a href="">Собака5(порода5)</a></td>
+            </tr>
+        </table>
+        </form>
+    </div>
+<form action="" class="description_form">  
+    <h2 id="ts3">10.00, 6 января 2020, традиционный стиль (TS), 3 класс (основной состав)</h2>  
+    <table>
+        <tr>
+            <td>1</td>
+            <td>
+                <a href="">Миронова Мария</a>/
+                <a href="">Джоджо (порода1)</a>
+            </td>  
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>
+                <a href="">Макаров Андрей</a>/
+                <a href="">Ленди (порода2)</a>
+            </td>
+        <tr>
+            <td>3</td>
+            <td>
+                <a href="">Иванов Геннадий</a>/
+                <a href="">Милли (порода3)</a>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>
+                <a href="">Василевский Дмитрий</a>/
+                <a href="">MINSK (gjhjlf4)</a>
+            </td>
+        </tr>
+    </table> 
+</form>
+<form action="" class="description_form">
+    <div class="queue">
+        <h2>В резерве пока никого нет</h2>
+        <img src="<?php echo get_template_directory_uri(); ?>/Image/Arr_queue.png" alt="Развернуть">
+    </div>
+</form>   
+<form action="" class="description_form">    
+    <h2 id="ts1">10.00, 7 января 2020, традиционный стиль (TS), 1 класс (основной состав)</h2>
+    <table>     
+        <tr>
+            <td>1</td>
+            <td>
+                <a href="">Миронова Мария</a>/
+                <a href="">Джоджо (порода1)</a>
+            </td>  
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>
+                <a href="">Макаров Андрей</a>/
+                <a href="">Ленди (порода2)</a>
+            </td>
+        <tr>
+            <td>3</td>
+            <td>
+                <a href="">Иванов Геннадий</a>/
+                <a href="">Милли (порода3)</a>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>
+                <a href="">Василевский Дмитрий</a>/
+                <a href="">MINSK (gjhjlf4)</a>
+            </td>
+        </tr><tr>
+            <td>5</td>
+            <td>
+                <a href="">Миронова Мария</a>/
+                <a href="">Джоджо (порода1)</a>
+            </td>  
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>
+                <a href="">Макаров Андрей</a>/
+                <a href="">Ленди (порода2)</a>
+            </td>
+        <tr>
+            <td>7</td>
+            <td>
+                <a href="">Иванов Геннадий</a>/
+                <a href="">Милли (порода3)</a>
+            </td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>
+                <a href="">Василевский Дмитрий</a>/
+                <a href="">MINSK (gjhjlf4)</a>
+            </td>
+        </tr>
+    </table>
+</form>
+<form action="" class="description_form">
+    <div class="queue">
+        <h2>10.00, 7 января 2020, традиционный стиль (TS), 1 класс (резервный список)</h2>
+        <img src="<?php echo get_template_directory_uri(); ?>/Image/Arr_queue.png" alt="Развернуть">
+    </div>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>
+                <a href="">Миронова Мария</a>/
+                <a href="">Джоджо (порода1)</a>
+            </td>  
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>
+                <a href="">Макаров Андрей</a>/
+                <a href="">Ленди (порода2)</a>
+            </td>
+        <tr>
+            <td>3</td>
+            <td>
+                <a href="">Иванов Геннадий</a>/
+                <a href="">Милли (порода3)</a>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>
+                <a href="">Василевский Дмитрий</a>/
+                <a href="">MINSK (gjhjlf4)</a>
+            </td>
+        </tr>
+        </tr>
+    </table>
+</form>
+<form action="" class="description_form">
+    <h2 id="cs2">10.00, 8 января 2020, собирающий стиль (CS), 2 класс (основной состав)</h2>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>
+                <a href="">Миронова Мария</a>/
+                <a href="">Джоджо (порода1)</a>
+            </td>  
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>
+                <a href="">Макаров Андрей</a>/
+                <a href="">Ленди (порода2)</a>
+            </td>
+        <tr>
+            <td>3</td>
+            <td>
+                <a href="">Иванов Геннадий</a>/
+                <a href="">Милли (порода3)</a>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>
+                <a href="">Василевский Дмитрий</a>/
+                <a href="">MINSK (gjhjlf4)</a>
+            </td>
+        </tr>
+    </table>
+</form>
+<form action="" class="description_form">
+    <div class="queue">
+        <h2>В резерве пока никого нет</h2>
+        <img src="<?php echo get_template_directory_uri(); ?>/Image/Arr_queue.png" alt="Развернуть">
+    </div>
+</form>  -->
+
+/* a.reset_a:hover {
+  color: #fff;
+} */
+
+/* .notice >a {
+  margin-right: 7px;
+  padding: 3px;
+}
+.notice >a:hover {
+  color: #fff;
+  background-color: rgba(9,105,69, .8);
+  -webkit-transition: 0.3s;
+} */
+/* .section {
+  margin: 0 0 70px;
+} */
+/* .add__result {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.add__result p {
+  line-height: 31px;
+}
+.sendRequest {
+  float: right;
+}
+.sendRequest:hover {
+  box-shadow: none;
+  background: rgba(253, 192, 7, .7);
+}
+.sendRequest + .h1 {
+  margin-top: 100px;
+} */
+/* .list_of_members {
+  width: 100%;
+}
+.list_of_members .tr_first>th:first-child {
+  width: 7%;
+}
+.list_of_members .tr_first>th:nth-child(4), .list_of_members .tr_first>th:nth-child(5) {
+  width: 12%;
+}
+.list_of_members tr>td {
+  padding: 5px;
+  text-align: center;
+}
+.list_of_members tr>td:first-child {
+    white-space: nowrap;
+} */
+/* .list_of_members tr td a {
+  color: #000;
+} */
+/* .reserved_button {
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(160, 160,160, 1);
+  margin: 0 30px 0 0;
+  box-shadow: none;
+}
+.reserved_button:hover, .reserved_button:focus {
+  transform: none;
+  transition: none;
+  background-color: rgba(160, 160,160, 1);
+}
+.reserved_list, .reserved_list tr td a {
+ color: rgba(0,0,0, .5);
+} */
+/* .list_of_members tr:not(:first-child):hover {
+  background-color: rgba(9,105,69, .2);
+} */
+
+/* .add textarea {
+  width: 100%;
+  display: block;
+  border: 1px solid rgba(9,105,69, .4);
+  box-sizing: border-box;
+  height: 50px;
+  padding: 2px 5px 0 16px;
+  resize: vertical;
+}
+.add textarea:focus {
+  outline: none;
+} */
+/* .create_event textarea::placeholder {
+    color: #000;
+} */
+
+/* .create_event .class {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.class:hover {
+  color: black;
+}
+.label_radio {
+  padding: 2px 15px 4px;
+  border: 1px solid transparent;
+  margin-right: 15px;
+  border: 0.5px solid rgba(9, 105, 69, .5);
+}
+#td_answer_radio:checked, #td_answer_radio2:checked {
+  background-color: rgba(9, 105, 69, 1);
+  color: #fff;
+}
+.td_answer .label_radio:hover, .td_answer input[type="checkbox"]:checked +.label_radio {
+  background-color: rgba(9, 105, 69, 1);
+  color: #fff;
+  border-color: transparent;
+  opacity: 1;
+} */
+/* .ts_cs .radio_wrap {
+  padding-left: 0;
+} */
+/* .ts_cs .label_radio {
+  width: 25%;
+  padding: 1px 15px 1px;
+} */
+/* .ts_cs .radio_wrap:last-child {
+  margin-bottom: 0px;
+} */
+/* .ts_cs .class {
+  font-size: 13px;
+} */
+/* .radio_wrap input[type='checkbox'] {
+  display: none;
+}
+.answer > .button {
+  margin: 45px 145px 0 64px;
+}
+.table_details, input[type='radio'] {
+  display: none;
+}
+.td_detail {
+  /* padding-top: 14px; */
+  /* display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.td_detail .answer {
+  padding-bottom: 0;
+}
+.create_event .td_detail .input+label {
+  font-size: 15px;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  margin-right: 15px;
+  /* margin-bottom: 17px; */
+  /* border-color: rgba(9, 105, 69, .5);
+}
+.create_event .td_detail .input+label:hover, .create_event .td_detail .input:checked+label {
+  background-color: rgba(9, 105, 69, 1);
+  color: #fff;
+  border-color: transparent;
+}
+#detail1:checked~#table1, #detail2:checked~#table2, #detail3:checked~#table3, #detail4:checked~#table4 {
+  display: block;
+}
+.create_event .input_start {
+  width: 50px;
+  margin-right: 5px;
+  padding: 0 5px;
+}  */
+
+/* .result {
+  margin-top: 45px;
+}
+.result tr {
+  word-wrap: break-word;
+}
+.result tr>td {
+  padding: 2px;
+  font-size: 12px;
+  line-height: 15px;
+}
+.a_button {
+  background-color: rgba(253, 192, 7, .7);
+}
+.a_button:hover {
+  background-color: rgba(253, 192, 7, 1);
+}
+#add_data:target {
+  display: block;
+  pointer-events: auto;
+}
+#add_data {
+  display: none;
+  margin-top: 25px;
+}
+
+.h2__data {
+  margin-top: 45px;
+} */
+/* caption {
+  text-transform: uppercase;
+} */
+
+<!-- <tr>
+<td>Дата1, время1</td>
+<td>Описание1</td>
+<td>Площадка1</td>
+<td>Организатор1, телефон1</td>
+<td>
+    <a class="a_event_description" href="" title="Перейти на страницу с регистрацией">Открыта регистрация</a>
+</td>
+</tr>
+<tr>
+<td>Дата2, время2</td>
+<td>Описание2</td>
+<td>Площадка2</td>
+<td>Организатор2, контакты2</td>
+<td>
+    <a class="a_event_description" href="" title="Перейти на страницу с регистрацией">Открыта регистрация</a>
+</td>
+</tr>
+<tr>
+<td>Дата3, время3</td>
+<td>Описание3</td>
+<td>Площадка3</td>
+<td>Организатор3, телефон3</td>
+<td>
+    <a class="a_event_description" href="" title="Перейти на страницу с регистрацией">Открыта регистрация</a>
+</td>
+</tr> -->
+</table>
+</div>
+<!-- <div class="show_event wrap_events_list" title="Нажмите, чтобы перейти к описанию мероприятия">
+<a class="a_show_event" href="#">
+<p class="date">2 января 2020 года</p> - Семинар по безопасности жизнедеятельности в африканских странах
+</a>
+</div>
+<div class="show_event wrap_events_list" title="Нажмите, чтобы перейти к описанию мероприятия">
+<a class="a_show_event " href="Event_card.html">
+<p class="date">6-8 января 2020 года</p> - Чемпионат России (CACIOB и квалификационные состязания)
+</a>
+</div>
+<div class="show_event wrap_events_list" title="Нажмите, чтобы перейти к описанию мероприятия">
+<a class="a_show_event" href="#">
+<p class="date">26 января 2020 года</p> - Лагерь, испытания ТПИ, чай с пирожками
+</a>
+</div> -->

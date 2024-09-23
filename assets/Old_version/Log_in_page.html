@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Вход в личный кабинет</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/Image/Fav.png" type="image/png" />
+</head> 
+<body>
+	<div class="wrap_login_window">
+		<div class="enter">
+			<form action="" class="enter_form">
+				<h3>Вход в личный кабинет</h3>
+				<label for="">Введите e-mail</label>
+				<input class="input" type="text">
+				<label for="">Введите пароль</label>
+				<input class="input" type="password">
+				<div class="layer">
+					<button>
+						<a href="/Profile_user">Войти в личный кабинет</a>
+					</button>
+				</div>
+			</form>
+			<div class="wrap_a">
+				<a href="/Form_add_user">Зарегистрироваться</a>
+				<a href="">Я не помню пароль</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Страница мероприятия</title>
+</head>
+<body>
+
+<div class="wrap">
+    <ul class="breadcrumbs">
+        <li><a href="/Main_page">Главная</a></li>
+        <li><a href="/Events_list">Мероприятия</a></li>
+        <li><a href="/Event_card">Страница мероприятия</a></li>
+        <li><a href="/Add_result">Результаты</a></li>
+    </ul>
+    <div class="block"></div>
+    <h1>Квалификационные состязания</h1>
+    <a href="#open_edit_window">
+        <img src="<?php echo get_template_directory_uri(); ?>/Image/edit.png" alt="Редактировать">
+    </a>
+    <table class="data description">
+        <tr>
+            <td class="item">Дата</td>
+            <td class="answer">6 января 2020 г.</td>
+        </tr>
+        <tr>
+            <td class="item">Площадка</td>
+            <td class="answer">Москва, адрес_площадки ({широта, долгота})</td>
+        </tr>
+        <tr>
+            <td class="item">Организатор</td>
+            <td class="answer"><a href="">Александрова Дарья</a></td>
+        </tr>
+        <tr>
+            <td class="item">Телефон организатора</td>
+            <td class="answer">8-999-555-33-22</td>
+        </tr>
+        <tr>
+            <td class="item">E-mail организатора</td>
+            <td class="answer">
+                <a href="">herding@herding.ru</a>
+            </td>
+        </tr>
+        <!-- <tr>
+            <td class="item">Описание</td>
+            <td class="answer">Lorem ipsum dolor sit amet, labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</td>
+        </tr> -->
+        <tr>
+            <td class="item">Взнос</td>
+            <td class="answer">1000 р.</td>
+        </tr>
+        <tr>
+            <td class="item">Количество участников</td>
+            <td class="answer">100</td>
+        </tr>
+        <tr>
+            <td class="item">Судья</td>
+            <td class="answer">
+                <a href="">Александрова Дарья Евгеньевна (TS1, TS2)</a> 
+                <a href="">Миронова Мария Станиславовна (CS)</a>
+            </td>
+        </tr>
+        <!-- <tr>
+            <td class="item">План мероприятий</td>
+            <td class="answer">
+                <a href="#ts" title="Перейти к списку участников">Дата1, время1 - Стиль1, класс1</a>
+                <a href="">Дата2, время2 - Стиль2, класс2</a>
+                <a href="">Дата3, время3 - Стиль3, класс3</a>
+                <a href="">Дата4, время4 - Стиль4, класс4</a>
+            </td> -->
+        </tr>     
+        </table>       
+        <div class="form">
+        <h2>План мероприятий</h2>
+            <table class="enumeration">
+                <tr>
+                    <th>Время</th>
+                    <th>Текущее состояние</th>
+                    <th>Действие</th>
+                </tr>
+                <tr>
+                    <td><a href="" title="Перейти к списку участников">время1 - Стиль1, класс1</a></td>              
+                    <td>Открыта регистрация</td>   
+                    <td><a href="/Application">Отправить заявку</a></td>       
+                </tr>
+                <tr>
+                    <td><a href="" title="Перейти к списку участников">время2 - Стиль2, класс2</a></td>            
+                    <td>Открыта регистрация</td>   
+                    <td><a href="">Отправить заявку</a></td>    
+                </tr>
+                <tr>
+                    <td><a href="" title="Перейти к списку участников">время3 - Стиль3, класс3</a></td>            
+                    <td>Открыта регистрация</td>   
+                    <td><a href="">Отправить заявку</a></td> 
+                </tr>
+                <tr>
+                    <td><a href="" title="Перейти к списку участников">время4 - Стиль4, класс4</a></td>            
+                    <td>Открыта регистрация</td>   
+                    <td><a href="">Отправить заявку</a></td> 
+                </tr>
+            </table>  
+        </div>
+    
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d203098.39595850222!2d37.60241536677527!3d55.77688866381599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5a7e436d39%3A0x23021a83220bc817!2z0J7RgNGD0LbQtdC50L3QsNGPINC_0LDQu9Cw0YLQsA!5e0!3m2!1sru!2sru!4v1614795121644!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="block"></div>
+    <h1>Список участников на дата1, время 1</h1>
+    <h2 id="ts">6 января 2020 г., традиционный стиль (основной список)</h2>
+    <div class="lists" >
+        <form action="">
+            <h2>1 класс </h2>
+            <div class="data_list">
+                <table class="participant">     
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <a href="">Проводник1 Фамилия1 Имя1/</a>
+                            <a href="">Собака1 Кличка1 (порода1)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <a href="">Проводник1 Фамилия1 Имя1/</a>
+                            <a href="">Собака1 Кличка1 (порода1)</a>
+                        </td>
+                    </tr><tr>
+                        <td>1</td>
+                        <td>
+                            <a href="">Проводник1 Фамилия1 Имя1/</a>
+                            <a href="">Собака1 Кличка1 (порода1)</a>
+                        </td>
+                    </tr><tr>
+                        <td>1</td>
+                        <td>
+                            <a href="">Проводник1 Фамилия1 Имя1/</a>
+                            <a href="">Собака1 Кличка1 (порода1)</a>
+                        </td>
+                    </tr><tr>
+                        <td>1</td>
+                        <td>
+                            <a href="">Проводник1 Фамилия1 Имя1/</a>
+                            <a href="">Собака1 Кличка1 (порода1)</a>
+                        </td>
+                    </tr><tr>
+                        <td>1</td>
+                        <td>
+                            <a href="">Проводник1 Фамилия1 Имя1/</a>
+                            <a href="">Собака1 Кличка1 (порода1)</a>
+                        </td>
+                    </tr><tr>
+                        <td>1</td>
+                        <td>
+                            <a href="">Проводник1 Фамилия1 Имя1/</a>
+                            <a href="">Собака1 Кличка1 (порода1)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <a href="">Проводник2 Фамилия2 Имя2/</a>
+                            <a href="">Собака2 Кличка2 (порода2)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <a href="">Проводник3 Фамилия3 Имя3/</a>
+                            <a href="">Собака3 Кличка3 (порода3)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <a href="">Проводник4 Фамилия4 Имя4/</a>
+                            <a href="">Собака4 Кличка4 (порода4)</a>
+                        </td>
+                    </tr>
+                </table>
+                
+                </div>
+            <div class="reserve">
+                <a href=""><p>2 класс, резервный список</p></a>
+                <a href=""><img src="<?php echo get_template_directory_uri(); ?>/Image/Arr_queue.png" alt="Развернуть"></a>
+                </div>
+            </form>
+        <form action="">           
+            <h2> 2 класс </h2>   
+            <div class="data_list">
+                <table class="participant">    
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <a href="">Проводник1 Фамилия1 Имя1/</a>
+                            <a href="">Собака1 Кличка1 (порода1)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <a href="">Проводник2 Фамилия2 Имя2/</a>
+                            <a href="">Собака2 Кличка2 (порода2)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <a href="">Проводник3 Фамилия3 Имя3/</a>
+                            <a href="">Собака3 Кличка3 (порода3)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <a href="">Проводник4 Фамилия4 Имя4/</a>
+                            <a href="">Собака4 Кличка4 (порода4)</a>
+                        </td>
+                    </tr>
+                    </table>
+            </div>  
+            <div class="reserve">
+                <a href=""><p>2 класс, резервный список</p></a>
+                <a href=""><img src="<?php echo get_template_directory_uri(); ?>/Image/Arr_queue.png" alt="Развернуть"></a>
+                </div>
+            </form>
+        <form action="">
+            <h2>3 класс</h2> 
+            <div class="data_list">
+                <table class="participant">                
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <a href="">Проводник1 Фамилия1 Имя1/</a>
+                            <a href="">Собака1 Кличка1 (порода1)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <a href="">Проводник2 Фамилия2 Имя2/</a>
+                            <a href="">Собака2 Кличка2 (порода2)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <a href="">Проводник3 Фамилия3 Имя3/</a>
+                            <a href="">Собака3 Кличка3 (порода3)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <a href="">Проводник4 Фамилия4 Имя4/</a>
+                            <a href="">Собака4 Кличка4 (порода4)</a>
+                        </td>
+                    </tr> <tr>
+                        <td>1</td>
+                        <td>
+                            <a href="">Проводник1 Фамилия1 Имя1/</a>
+                            <a href="">Собака1 Кличка1 (порода1)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <a href="">Проводник2 Фамилия2 Имя2/</a>
+                            <a href="">Собака2 Кличка2 (порода2)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <a href="">Проводник3 Фамилия3 Имя3/</a>
+                            <a href="">Собака3 Кличка3 (порода3)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <a href="">Проводник4 Фамилия4 Имя4/</a>
+                            <a href="">Собака4 Кличка4 (порода4)</a>
+                        </td>
+                    </tr>
+                </table>
+                </div>   
+                <div class="reserve">
+                    <a href=""><p>2 класс, резервный список</p></a>
+                    <a href=""><img src="<?php echo get_template_directory_uri(); ?>/Image/Arr_queue.png" alt="Развернуть"></a>
+                </div>
+            </form>
+        </div>
+    <div class="block"></div>
+    <h1 id="result">Результаты</h1>    
+    <form action="" class="form data_result">
+        <h2>6 января 2020, традиционный стиль (TS), 3 класс</h2>
+        <table class="enumeration">
+            <tr>
+                <th>№ п/п</th>
+                <th>Стартовый №</th>
+                <th>Проводник/Кличка и порода собаки</th>
+                <th>Итог/<br>100</th>
+                <th>Место</th>
+                <th>Оценка</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>3</td>
+                <td><a href="">Миронова Мария</a>/
+                <a href="">Ленни (Келпи)</a></td>
+                <td>85</td>
+                <td>1</td>
+                <td>Очень хорошо</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>1</td>
+                <td><a href="">Макаров Андрей</a>/
+                <a href="">Ленни1 (Бордер-колли)</a></td>
+                <td>84</td>
+                <td>2</td>
+                <td>Очень хорошо</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>3</td>
+                <td><a href="">Миронова Мария</a>/
+                <a href="">Ленни (Келпи)</a></td>
+                <td>85</td>
+                <td>1</td>
+                <td>Очень хорошо</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>1</td>
+                <td><a href="">Макаров Андрей</a>/
+                <a href="">Ленни1 (Бордер-колли)</a></td>
+                <td>84</td>
+                <td>2</td>
+                <td>Очень хорошо</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+                <td><a href="">Иванов Геннадий</a>/
+                <a href="">Ленни2 (Корги)</a></td>
+                <td>83</td>
+                <td>3</td>
+                <td>Очень хорошо</td>
+            </tr>
+            <tr class="last_line">
+                <td>4</td>
+                <td>2</td>
+                <td><a href="">Василевский Дмитрий</a>/
+                <a href="">MINSK (Корги)</a></td>
+                <td>82</td>
+                <td>4</td>
+                <td>Очень хорошо</td>
+            </tr><tr>
+                <td>1</td>
+                <td>3</td>
+                <td><a href="">Миронова Мария</a>/
+                <a href="">Ленни (Келпи)</a></td>
+                <td>85</td>
+                <td>1</td>
+                <td>Очень хорошо</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>1</td>
+                <td><a href="">Макаров Андрей</a>/
+                <a href="">Ленни1 (Бордер-колли)</a></td>
+                <td>84</td>
+                <td>2</td>
+                <td>Очень хорошо</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+                <td><a href="">Иванов Геннадий</a>/
+                <a href="">Ленни2 (Корги)</a></td>
+                <td>83</td>
+                <td>3</td>
+                <td>Очень хорошо</td>
+            </tr>
+            <tr class="last_line">
+                <td>4</td>
+                <td>2</td>
+                <td><a href="">Василевский Дмитрий</a>/
+                <a href="">MINSK (Корги)</a></td>
+                <td>82</td>
+                <td>4</td>
+                <td>Очень хорошо</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+                <td><a href="">Иванов Геннадий</a>/
+                <a href="">Ленни2 (Корги)</a></td>
+                <td>83</td>
+                <td>3</td>
+                <td>Очень хорошо</td>
+            </tr>
+            <tr class="last_line">
+                <td>4</td>
+                <td>2</td>
+                <td><a href="">Василевский Дмитрий</a>/
+                <a href="">MINSK (Корги)</a></td>
+                <td>82</td>
+                <td>4</td>
+                <td>Очень хорошо</td>
+            </tr>
+        </table>
+        <div class="view_result">
+            <a class="page__number" href="#open_modal">Смотреть подробности</a>
+        </div>
+    </form>  
+    <form action="" class="form data_result">
+        <h2>6 января 2020, традиционный стиль (TS), 1 класс</h2>
+        <table class="enumeration">
+            <tr>
+                <th>№ п/п</th>
+                <th>Стартовый №</th>
+                <th>Проводник/Кличка и порода собаки</th>
+                <th>Итог/<br>100</th>
+                <th>Место</th>
+                <th>Оценка</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>3</td>
+                <td><a href="">Миронова Мария</a>/
+                <a href="">Ленни (Келпи)</a></td>
+                <td>85</td>
+                <td>1</td>
+                <td>Очень хорошо</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>1</td>
+                <td><a href="">Макаров Андрей</a>/
+                <a href="">Ленни1 (Бордер-колли)</a></td>
+                <td>84</td>
+                <td>2</td>
+                <td>Очень хорошо</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+                <td><a href="">Иванов Геннадий</a>/
+                <a href="">Ленни2 (Корги)</a></td>
+                <td>83</td>
+                <td>3</td>
+                <td>Очень хорошо</td>
+            </tr>
+            <tr class="last_line">
+                <td>4</td>
+                <td>2</td>
+                <td><a href="">Василевский Дмитрий</a>/
+                <a href="">MINSK (Корги)</a></td>
+                <td>82</td>
+                <td>4</td>
+                <td>Очень хорошо</td>
+            </tr>
+        </table>
+        <div class="view_result">
+            <a class="page__number" href="#open_modal">Смотреть подробности</a>
+        </div>
+    </form>    
+    <form action="" class="form data_result">
+        <h2>6 января 2020, собирающий стиль (CS), 2 класс</h2>
+        <table class="enumeration">
+            <tr>
+                <th>№ п/п</th>
+                <th>Стартовый №</th>
+                <th>Проводник/Кличка и порода собаки</th>
+                <th>Итог/<br>100</th>
+                <th>Место</th>
+                <th>Оценка</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>3</td>
+                <td><a href="">Миронова Мария</a>/
+                <a href="">Ленни (Келпи)</a></td>
+                <td>85</td>
+                <td>1</td>
+                <td>Очень хорошо</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>1</td>
+                <td><a href="">Макаров Андрей</a>/
+                <a href="">Ленни1 (Бордер-колли)</a></td>
+                <td>84</td>
+                <td>2</td>
+                <td>Очень хорошо</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+                <td><a href="">Иванов Геннадий</a>/
+                <a href="">Ленни2 (Корги)</a></td>
+                <td>83</td>
+                <td>3</td>
+                <td>Очень хорошо</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>2</td>
+                <td><a href="">Василевский Дмитрий</a>/
+                <a href="">MINSK (Корги)</a></td>
+                <td>82</td>
+                <td>4</td>
+                <td>Очень хорошо</td>
+            </tr>
+        </table>
+        <div class="view_result">
+            <a class="page__number" href="#open_modal">Смотреть подробности</a>
+        </div>
+    </form>
+    </div>
+</div>
+
+<?php get_footer(); ?>
+<section id="open_modal" class="detail">
+    <div class="event_details">             
+        <a href="#close_modal" title="Закрыть окно">
+            <img src="<?php echo get_template_directory_uri(); ?>/Image/close.png" alt="Закрыть">
+        </a>
+                
+        <h1>Таблица результатов</h1>
+        <div class="form_result">
+            <table class="data_results">
+                <tr>
+                    <th rowspan="2">№ по кат.</th>
+                    <th rowspan="2">Старт. №</th>
+                    <th rowspan="2">ФИ проводника</th>
+                    <th rowspan="2">Кличка полная собаки</th>
+                    <th rowspan="2">Кличка краткая собаки</th>
+                    <th rowspan="2">Порода собаки</th>
+                    <th>Стартовый загон</th>
+                    <th>Остановка</th>
+                    <th>Место выпаса, 3 мин</th>
+                    <th>Изъятие овец</th>
+                    <th>Охрана посевов</th>
+                    <th>Автом.дорога</th>
+                    <th>Финишный загон</th>
+                    <th>Движение</th>
+                    <th>Мост</th>
+                    <th>Препятствие типа В</th>
+                    <th>Препятствие типа В</th>
+                    <th>Препятствие типа С</th>
+                    <th>Препятствие типа С</th>
+                    <th>Поведение</th>
+                    <th>Итог</th>
+                    <th rowspan="2">Место</th>
+                    <th rowspan="2">Оценка</th>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>20</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>3</td>
+                    <td><a href="">Проводник1</a>
+                        </a>
+                    </td>
+                    <td> 
+                        <a href="" title="Перейти на страницу">Собака1</a>
+
+                    </td>
+                    <td>Собака1</td>
+                    <td>(Келпи)</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>85</td>
+                    <td>1</td>
+                    <td>Очень хорошо</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>
+                        <a href="">Проводник2</a>
+                        
+                    </td>
+                    <td><a href="">Собака2 </a></td>
+                    <td>Собака2</td>
+                    <td>Бордер-колли</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>85</td>
+                    <td>2</td>
+                    <td>Очень хорошо</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>
+                        <a href="">	Проводник3</a>
+                        
+                    </td>
+                    <td><a href="">Собака3</a></td>
+                    <td>Cj,frf3</td>
+                    <td>Корги</td>
+                    <td>2</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>85</td>
+                    <td>3</td>
+                    <td>Очень хорошо</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>
+                        <a href="">Проводник4</a>/
+                        
+                    </td>
+                    <td><a href="">Собака4</a></td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>85</td>
+                    <td>4</td>
+                    <td>Очень хорошо</td>
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+</section>
+<section id="open_edit_window" class="detail">
+    <div class="modal_window">
+        <a href="#close_modal">
+            <img src="<?php echo get_template_directory_uri(); ?>/Image/close.png" alt="Закрыть">
+        </a>
+        <h2>Редактирование информации</h2>
+        <form class="form_edit" action="/Event_card" method="post">
+            <table class="edit">
+                <tr>
+                    <td class="item">Название</td>
+                    <td class="answer"><input type="text" class="input"></td>
+                </tr>
+                <tr>
+                    <td class="item">Тип</td>
+                    <td class="answer">
+						<select>
+							<option>
+								<p>Тип мероприятия</p>
+							</option>
+						</select>
+					</td>
+                </tr>
+                <tr>
+                    <td class="item">Дата</td>
+                    <td class="answer"><input type="date"></td>
+                </tr>
+                <tr>
+                    <td class="item">Площадка</td>
+                    <td class="answer">
+                    <select>
+                        <option>
+                            <p>Выберите площадку из списка</p>
+                        </option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="item">Организатор</td>
+                    <td class="answer"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="item">Телефон организатора</td>
+                    <td class="answer"><input type="text"></td>
+                </tr>
+                <tr>
+					<td class="item">E-mail организатора</td>
+					<td class="answer"><input type="text"></td>
+				</tr>
+                <tr>
+					<td class="item">Максимальное количество участников</td>
+					<td class="answer"><input type="text"></td>
+				</tr>
+				<tr>
+					<td class="item">Взнос</td>
+					<td class="answer"><input type="text"></td>
+				</tr>
+            </table>
+            <div class="buttons">
+                <button>Сохранить изменения</button>
+            </div>
+        </form>
+    </div>    
+        </section>
+</body>
+</html>

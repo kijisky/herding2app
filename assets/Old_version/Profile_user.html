@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Профиль пользователя</title>
+</head>
+<body>
+<div class="wrap">
+    <ul class="breadcrumbs">
+        <li><a href="/Main_page">Главная</a></li>
+        <li><a class="page__number" href="/Profile_user">Личный кабинет</a></li>
+    </ul>
+    <div class="block"> </div>
+    <h1 class="h1">Моя информация</h1>
+    <a href="#open_modal">
+        <img src="<?php echo get_template_directory_uri(); ?>/Image/edit.png" alt="Редактировать">
+    </a>
+    <div class="data_block">
+        <div class="user_photo">
+            <img src="<?php echo get_template_directory_uri(); ?>/Image/No-photo.png" alt="Моя фотография">
+        </div>
+        <table class="data">
+            <tr>
+                <td class="item">Фамилия</td>
+                <td class="answer">Afvbkbz</td>
+            </tr>
+            <tr>
+                <td class="item">Имя</td>
+                <td class="answer">Bkz</td>
+            </tr>
+            <tr>
+                <td class="item">Дата рождения</td>
+                <td class="answer">12.12.2012</td>
+            </tr>
+            <tr>
+                <td class="item">Город проживания</td>
+                <td class="answer">Cfyrn-Gtnth,ehu</td>
+            </tr>
+            <tr>
+                <td class="item">Телефон</td>
+                <td class="answer">999-888-55-22</td>
+            </tr>
+            <tr>
+                <td class="item">Центр</td>
+                <td class="answer"><a href="/Profile_centre">Наши бараши</a></td>
+            </tr>
+            <tr>
+                <td class="item">Деятельность</td>
+                <td class="answer">Jhufybpfnjh? dkfltktw</td>
+            </tr>
+            <tr>
+                <td class="item">E-mail</td>
+                <td class="answer">a@gmail.com</td>
+            </tr>
+            <tr>
+                <td class="item">Сайт/страница</td>
+                <td class="answer"><a href="">herding.ru</a></td>
+            </tr>
+        </table>
+    </div>
+    <main class="list">
+        <div class="block"></div>
+        <h1 class="h1">Собаки</h1>
+        <h2>Владелец</h2>
+        <div class="owner">
+            <div class="dog">
+                <a href="" class="a_dog" title="Перейти на страницу собаки">
+                    <img src="<?php echo get_template_directory_uri(); ?>/Image/No-photo.png" alt="">
+                    <p>JOLI FRANSEZ OT BELLA MAFIYA (Грюнендаль)</p>
+                </a>
+            </div>
+            <div class="dog">
+                <a href="" class="a_dog" title="Перейти на страницу собаки">
+                    <img src="<?php echo get_template_directory_uri(); ?>/Image/No-photo.png" alt="">
+                    <p>ГЕАРЕС ПЛЕЙФУЛ ТАРА (Келпи)</p>
+                </a>
+            </div>
+        </div>
+        <h2>Проводник</h2>
+        <div class="guede">
+            <div>
+                <a href="/Profile_dog" title="Перейти на страницу собаки">
+                    <p>Frederick Defender Topli (Шелти)</p>   
+                </a>
+                <a href="" title="Развернуть список соревнований">
+                    <img src="<?php echo get_template_directory_uri(); ?>/Image/Arr.png" alt="Развернуть">
+                </a>
+            </div>
+            <section class="form">
+                <table class="enumeration">
+                    <tr>
+                        <th>Дата</th>
+                        <th>Ранг состязания</th>
+                        <th>Место проведения</th>
+                        <th>Стиль/Класс</th>
+                        <th>Баллы</th>
+                        <th>Оценка</th>
+                        <th>Итоговое место</th>
+                    </tr>
+                    <tr>
+                        <td>04.07.2020</th>
+                        <td>Квалификационные</td>
+                        <td>Площадка1</td>
+                        <td>CS2</td>
+                        <td>80</td>
+                        <td>Очень хорошо</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>04.07.2020</th>
+                        <td>Сертификатные национальные</td>
+                        <td>Площадка2</td>
+                        <td>CS2</td>
+                        <td>90</td>
+                        <td>Хорошо</td>
+                        <td>4</td>
+                    </tr> 
+                    <tr>
+                        <td>04.07.2020</th>
+                        <td>Сертификатные интернациональные</td>
+                        <td>Площадка3</td>
+                        <td>CS2</td>
+                        <td>100</td>
+                        <td>Отлично</td>
+                        <td>1</td>
+                    </tr> 
+                    <tr>
+                        <td>04.07.2020</th>
+                        <td>Квалификационные</td>
+                        <td>Площадка2</td>
+                        <td>TS3</td>
+                        <td>100</td>
+                        <td>Отлично</td>
+                        <td>1</td>
+                    </tr> 
+                </table>
+                <div class="transition">
+                    <a href="/Profile_dog/#competition">Просмотреть список всех состязаний собаки</a>
+                </div>
+            </section>
+            <div>
+                <a href="" title="Перейти на страницу собаки">
+                    <p>LILI GORDON BLACK LEAF (Аусси)</p>
+                </a>
+            </div>
+            <div>
+                <a href="" title="Перейти на страницу собаки">
+                    <p>SEARLY FREDSON YORGENSSON (Корги)</p>
+                </a>
+            </div>
+        </div>
+        <!-- <h2>Тренер</h2>
+        <div class="guede">
+            <div>
+                <a href="/Profile_dog" title="Перейти на страницу собаки">
+                    <p>Frederick Defender Topli (Шелти)</p>
+                </a>
+            </div>
+            <div>
+                <a href="" title="Перейти на страницу собаки">
+                    <p>LILI GORDON BLACK LEAF (Аусси)</p>
+                </a>
+            </div>
+            <div>
+                <a href="" title="Перейти на страницу собаки">
+                    <p>SEARLY FREDSON YORGENSSON (Корги)</p>
+                </a>
+            </div>
+        </div> -->
+        
+    </main>
+    <div class="block"></div>
+    <form action="">
+        <div>
+            <h1>Список состязаний</h1>
+            <select class="choose_month" name="">
+                <option value="">год</option>
+                <option value="">2020</option>
+                <option value="">2021</option>
+                <option value="">2022</option>
+                <option value="">2023</option>
+                <option value="">2024</option>
+            </select>
+        </div>
+        <table class="enumeration">
+            <tr>
+                <th>Дата</th>
+                <th>Ранг состязания</th>
+                <th>Место проведения</th>
+                <th>Кличка собаки/порода</th>
+                <th>Стиль/класс</th>
+                <th>Баллы</th>
+                <th>Оценка</th>
+                <th>Итоговое место</th>
+                <th>Страница состязания</th>
+            </tr>
+            <tr>
+                <td>04.07.2020</th>
+                <td>Квалификационные</td>
+                <td>Площадка1</td>
+                <td>
+                    <a href="/Profile_dog">
+                        <p>Собака1 Кличка по Родословной1 (порода1)</p>    
+                    </a>
+                </td>
+                <td>CS2</td>
+                <td>80</td>
+                <td>Очень хорошо</td>
+                <td>3</td>
+                <td>
+                    <a href="/Event_card" title="Перейти на страницу состязания">
+                        <img src="<?php echo get_template_directory_uri(); ?>/Image/Arr_right.png" alt="Переход">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>04.07.2020</th>
+                <td>Сертификатные национальные</td>
+                <td>Площадка2</td>
+                <td>
+                    <a href="/Profile_dog">
+                        <p>Собака2 Кличка по Родословной2 (порода2)</p>    
+                    </a>
+                </td>
+                <td>CS2</td>
+                <td>90</td>
+                <td>Хорошо</td>
+                <td>4</td>
+                <td>
+                    <a href="/Event_card" title="Перейти на страницу состязания">
+                        <img src="<?php echo get_template_directory_uri(); ?>/Image/Arr_right.png" alt="Переход">
+                    </a>
+                </td>
+            </tr> 
+            <tr>
+                <td>04.07.2020</th>
+                <td>Сертификатные интернациональные</td>
+                <td>Площадка3</td>
+                <td>
+                    <a href="/Profile_dog">
+                        <p>Собака3 Кличка по Родословной3 (порода3)</p>    
+                    </a>
+                </td>
+                <td>CS2</td>
+                <td>100</td>
+                <td>Отлично</td>
+                <td>1</td>
+                <td>
+                    <a href="/Event_card" title="Перейти на страницу состязания">
+                        <img src="<?php echo get_template_directory_uri(); ?>/Image/Arr_right.png" alt="Переход">
+                    </a>
+                </td>
+            </tr> 
+            <tr>
+                <td>04.07.2020</th>
+                <td>Квалификационные</td>
+                <td>Площадка2</td>
+                <td>
+                    <a href="/Profile_dog">
+                        <p>Собака4 Кличка по Родословной4 (порода4)</p>    
+                    </a>
+                </td>
+                <td>TS3</td>
+                <td>100</td>
+                <td>Отлично</td>
+                <td>1</td>
+                <td>
+                    <a href="/Event_card" title="Перейти на страницу состязания">
+                        <img src="<?php echo get_template_directory_uri(); ?>/Image/Arr_right.png" alt="Переход">
+                    </a>
+                </td>
+            </tr>   
+        </table>
+        <div class="next__page">
+            <a href="" class="disabled">Предыдущая страница</a>
+            <a href="">1</a>
+            <a href="">2</a>
+            <a class="page__number" href="">3</a>
+            <a href="">4</a>
+            <a href="">5</a>
+            <a href="">6</a>
+            <a href="">Следующая страница</a>
+        </div>
+    </form>
+</div>
+    
+</div>
+
+<?php get_footer(); ?>
+
+<div id="open_modal" class="detail">
+    <div class="modal_window">
+        <a href="#close_modal">
+            <img src="<?php echo get_template_directory_uri(); ?>/Image/close.png" alt="Закрыть">
+        </a>
+        <h2>Редактирование информации</h2>
+        <form class="form_edit" action="/Profile_user" method="post">
+            <table class="edit">
+                <tr>
+                    <td class="item">Фамилия</td>
+                    <td class="answer"><input type="text" class="input"></td>
+                </tr>
+                <tr>
+                    <td class="item">Имя</td>
+                    <td class="answer"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="item">Дата рождения</td>
+                    <td class="answer"><input type="date"></td>
+                </tr>
+                <tr>
+                    <td class="item">Город проживания</td>
+                    <td class="answer">
+                    <select>
+                        <option>
+                            <p>Выберите город из списка</p>
+                        </option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="item">Телефон</td>
+                    <td class="answer"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="item">Центр</td>
+                    <td class="answer"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="item">Деятельность</td>
+                    <td class="answer">
+                    <select name="">
+                        <option value="">Добавить деятельность</option>
+                        <option value="">Проводник</option>
+                        <option value="">Тренер</option>
+                        <option value="">Судья (не подтверждено)</option>
+                        <option value="">Представитель сообщества (не подтверждено)</option>
+                        <option value="">Организатор мероприятий (не подтверждено)</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="item">E-mail</td>
+                    <td class="answer"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="item">Сайт</td>
+                    <td class="answer"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="item">Загрузить фото</td>
+                    <td class="answer">
+                        <label for="photo-file_user">
+                            <input id="photo-file_user" type="file" name="photo" multiple="" accept="image/*">
+                        </label>
+                    </td>
+                </tr>
+            </table>
+            <div class="buttons">
+                <button>Сохранить изменения</button>
+            </div>
+            <p>&#128276; &nbsp;При выборе таких категорий деятельности как судья, представитель сообщества или организатор мероприятий администратору сайта будет автоматически отправлено письмо для подтверждения информации</p>
+        </form>
+    </div>    
+</div>
+</body>

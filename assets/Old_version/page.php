@@ -1,0 +1,111 @@
+<?php
+/*
+Template Name: шаблон
+*/
+?>
+<?php get_header(); ?>
+<div class="main__content">
+    
+    <?php get_sidebar(); ?>
+    <div class="wrap">
+        <div class="banner ">
+            <a href="" title="Перейти на страницу">
+                <h3 >Любое важное объявление</h3>
+                <p>Число, время, площадка, город - Краткое описание (организатор)</p>  
+            </a>
+        </div>
+        <div>
+            <h1>Календарь мероприятий на
+            <select class="choose_month" name="">
+                <option value="">месяц</option>
+            </select>
+            <select class="choose_month" name="">
+                <option value="">год</option>
+            </select>
+            </h1>
+        </div>
+        <div class="wrapper">
+            <table class="calendar">
+                <tr>
+                    <th>Понедельник</th>
+                    <th>Вторник</th>
+                    <th>Среда</th>
+                    <th>Четверг</th>
+                    <th>Пятница</th>
+                    <th>Суббота</th>
+                    <th>Воскресенье</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td class="td__green">
+                        <a class="" href="">2</a>
+                    </td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td class="weekend td__green">
+                        <a class="" href="">6</a>
+                    </td>
+                    <td class="weekend">7</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td><p class="today">Сегодня!</p> 11 </td>
+                    <td>12</td>
+                    <td class="weekend">13</td>
+                    <td class="weekend">14</td>
+                </tr>
+                    <tr>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td class="weekend">20</td>
+                    <td class="weekend">21</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td class="td__green">
+                        <a class="" href="">26</a>
+                    </td>
+                    <td class="weekend">27</td>
+                    <td class="weekend">28</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                </tr>
+            </table>
+            
+        </div>
+        <h1 class="h1">Мероприятия, проводимые <Дата></h1>
+        <div class="event__description_block">
+            <table class="calendar">
+                <tr>
+                    <td>Описание</td>
+                    <td>Текущий этап</td>
+                </tr>
+                <tr>
+                    <td><a href="" title="Перейти на страницу мероприятия">Дата1, время1 - Название1, описание1, г.Площадка1 (Организатор1, телефон1)</a></td>
+                    <td>
+                            <a class="" href="" title="Перейти на страницу с регистрацией">Открыта регистрация</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="/Event_card" title="Перейти на страницу мероприятия">Дата2, время2 - Название2, описание2, г. Площадка2 (Организатор2, телефон2)</a></td>
+                    <td>
+                            <a class="" href="" title="Перейти на страницу с регистрацией">Открыта регистрация</a>
+                    </td>
+                </tr>
+
+    </div>
+</div>
+
+  <?php get_footer(); ?>

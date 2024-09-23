@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Добавить центр</title>
+</head>
+<body>
+<div class="wrap">
+    <ul class="breadcrumbs">
+        <li><a href="/Main_page">Главная</a></li>
+        <li><a href="/Profile_user">Личный кабинет</a></li>
+        <li><a href="/Form_add_center">Регистрация центра</a></li>
+    </ul>
+    <div class="block"></div>
+    <h1>Регистрация центра</h1>
+    <form action="/Form_add_center" method="post" class="add_data">
+        <table class="add">
+            <tr>
+                <td class="item">Название</td>
+                <td class="answer">
+                    <input type="text"></td>
+            </tr>
+            <tr>
+                <td class="item">Тип</td>
+                <td class="answer">
+                    <select name="">
+                        <option value="">Выбрать тип</option>
+                        <option value="">Официальный организатор</option>
+                        <option value="">Пастуший центр</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="item">Адрес</td>
+                <td class="answer">
+                    <input type="text"></td>
+            </tr>
+            <tr>
+                <td class="item">Руководитель</td>
+                <td class="answer">
+                    <select name="">
+                        <option value="">Добавить руководителя</option>
+                        <option value="">Человек1</option>
+                        <option value="">Человек2</option>
+                        <option value="">Человек3</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td class="item">Представитель</td>
+                <td class="answer">
+                    <select name="">
+                        <option value="">Добавить представителя</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td class="item">Телефоны</td>
+                <td class="answer">
+                    <input type="text" required></td>
+            </tr>
+            <tr>
+                <td class="item">E-mail</td>
+                <td class="answer">
+                    <input type="text"required></td>
+            </tr>
+            <tr>
+                <td class="item">Сайт/страница</td>
+                <td class="answer">
+                    <input type="text"></td>
+            </tr>
+            <tr>
+                <td class="item">Загрузить логотип/картинку/фото</label></td>
+                <td class="answer">
+                    <label for="input" class="label_file">
+                            <span>Файл не выбран</span>
+                    </label>
+                    <input class="input__file" type="file" id="input" name="photo" multiple accept="image/*">   
+                </td>
+            </tr>
+        </table>
+        <div class="buttons">
+          <button>Сохранить</button>
+        </div>
+    </form>
+</div>
+</div>
+<?php get_footer(); ?>

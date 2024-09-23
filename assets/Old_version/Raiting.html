@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Рейтинг</title>
+</head>
+<body>
+<div class="wrap">
+	<ul class="breadcrumbs">
+		<li><a href="/Main_page">Главная</a></li>
+		<li><a href="/Raiting">Рейтинг</a></li>
+	</ul>
+	<div class="block"></div>
+	<h1 class="h1">Таблица рейтинга</h1>
+	<form action="" class="form_searching_for">
+		<table class="searching_for">
+			<tr>
+				<td class="item">Выбрать год</td>
+				<td>
+					<input type="date">
+				</td>
+			</tr>
+			<tr>
+				<td class="item">Стиль</td>
+				<td class="answer radio_wrap">                    
+					<label class="radio">
+						<input type="radio" name="style">
+						<div class="div_radio"></div>
+						<p>&ensp;Традиционный (<strong>TS</strong>)</p>
+					</label>
+					<label class="radio">
+						<input type="radio" name="style">
+						<div class="div_radio"></div>
+						<p>&ensp;Собирающий (<strong>CS</strong>)</p>
+					</label>
+				</td>
+			</tr>
+			<tr>
+				<td class="item">Тип рейтинга</td>
+					<td class="answer radio_wrap">
+						<label class="radio">
+							<input type="radio" name="class" >
+							<div class="div_radio"></div>
+							<p>&ensp;Общий</p>
+						</label>
+						<label  class="radio">
+							<input type="radio" name="class">
+							<div class="div_radio"></div>
+							<p>&ensp;Породный</p>
+						</label>
+						<label class="radio class">
+							<input type="radio" name="class">
+							<div class="div_radio"></div>
+							<p>&ensp;По классу</p>
+						</label>
+						<!-- <label class="radio class">
+							<input type="radio" name="class">
+							<div class="div_radio"></div>
+							<p>&ensp;3-й класс</p>
+						</label> -->
+					</td>
+			</tr>			
+            <tr>
+                <td class="item">Выбор класса</td>
+                <td class="answer radio_wrap">
+                    <label class="radio">
+                        <input type="radio" name="class" >
+                        <div class="div_radio"></div>
+                        <p>&ensp;1</p>
+                    </label>
+                    <label  class="radio">
+                        <input type="radio" name="class">
+                        <div class="div_radio"></div>
+                        <p>&ensp;2</p>
+                    </label>
+                    <label class="radio class">
+                        <input type="radio" name="class">
+                        <div class="div_radio"></div>
+                        <p>&ensp;3</p>
+                    </label>
+                </td>
+			</tr>
+			<tr>
+                <td class="item">Выбор породы</td>
+                <td class="answer">
+                   <select name="" id="">
+					   <option value="">Выбрать породу</option>
+					   
+				   </select>
+                </td>
+            </tr>
+			<tr>
+				<td class="item">Сортировать </td>
+					<td class="answer radio_wrap">
+						<label class="radio">
+							<input type="radio" name="class" >
+							<div class="div_radio"></div>
+							<p>&ensp;По общему количеству баллов</p>
+						</label>
+						<label  class="radio">
+							<input type="radio" name="class">
+							<div class="div_radio"></div>
+							<p>&ensp;По среднему баллу</p>
+						</label>
+					
+				</td>
+				</tr>
+		</table>
+		<div class="buttons">
+			<button>Показать результаты</button>
+		</div>
+	</form>
+	<div class="form">
+		<table class="enumeration raiting">
+			<tr>
+				<th>Итоговое место</th>
+				<th>Проводник, собака (порода)</th>
+				<th>Количество баллов</th>
+				<th>Средний балл</th>
+				<th>Детали</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>
+					<a href="">Проводник1/</a>
+					<a href="">Собака1 Кличка По Родословной(порода1)</a>
+				</td>
+				<td>355</td>
+				<td>70</td>
+				<td>зачёт по 4-ём состязаниям 
+					IHT-TS-1 и по 4-ём IHT-TS-2 (60/61/95/94/91/63/71/73)</td>	
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>
+					<a href="">Проводник2/</a>
+					<a href="">Собака2 Кличка По Родословной(порода)</a>
+				</td>
+				<td>340</td>
+				<td>65</td>
+				<td>зачёт по 5-ти состязаниям IHT-TS-3 (76/71/66/84/62</td>	
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>
+					<a href="">Проводник3/</a>
+					<a href="">Собака3 Кличка По Родословной(порода)</a>
+				</td>
+				<td>335</td>
+				<td>70</td>
+				<td>зачёт по 7-ми состязаниям IHT-TS-1 (66/63/91/90/69/86/76)</td>
+			</tr>
+		</table>
+	</div>
+	
+</div>
+</div>
+</body>
+</html>

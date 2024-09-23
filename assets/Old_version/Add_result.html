@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Добавить результаты</title>
+</head>
+<body>
+
+
+
+<div class="main__content">
+
+<?php get_sidebar(); ?>
+    <div class="wrap">
+	    <ul class="breadcrumbs">
+            <li><a href="/Main_page">Главная</a></li>
+            <li><a href="/Events">Мероприятия</a></li>
+            <li><a href="/Event_card">Страница мероприятия</a></li>
+            <li><a href="/Add_result">Результаты</a></li>
+        </ul>
+        <div class="block"></div>
+        <h1>Общие данные мероприятия</h1>
+        <form action="" class="form_searching_for">
+            <table class="searching_for">
+                <tr>
+                    <td class="item">Название</td>
+                    <td class="answer">
+                        <input type="text" placeholder="<Данные со страницы мероприятия>">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="item">Дата проведения</td>
+                    <td class="answer"><input type="date"></td>
+                </tr>
+                <tr>
+                    <td class="item">Площадка</td>
+                    <td class="answer">
+                        <select>
+                            <option>
+                                <p><Данные со страницы мероприятия></p>
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="item">Организатор</td>
+                    <td class="answer"><input placeholder="<Данные со страницы мероприятия>"></td>
+                </tr>
+            
+                
+                <!-- <tr>
+                    <td class="item">Таблица отчётности</td>
+                    <td class="answer">
+                    <select>
+                            <option class="first_option">
+                                Выбрать формат документа
+                            </option>
+                    </select>
+                    </td>
+                </tr>  -->
+            </table> 
+        </form>
+       
+    <form action="" class="form_searching_for">
+        <h2>Детали списка {Стиль#, класс#}</h2>
+        <table class="searching_for">
+            <tr>
+                <td class="item">Тип </td>
+                <td class="answer">
+                    <select name="" id="">
+                        <option value="">Состязание</option>
+                        <option value="">Тест ТПИ</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="item">Стиль</td>
+                <td class="answer">
+                    <select name="" id="">
+                        <option value="">Традиционный</option>
+                        <option value="">Собирающий</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="item">Класс</td>
+                <td class="answer">
+                    <select name="" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                </td>
+            </tr> 
+            <tr>
+                <td class="item">Судья</td>
+                <td class="answer">
+                    <select>
+                            <option class="first_option">
+                                Выбрать
+                            </option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <div class="buttons">
+            <button class="reset">
+                <label for="data__file">Загрузить результаты
+                    <input id="data__file" type="file" name="data" multiple="" accept=".xlsx">
+                </label>
+            </button>
+            <button><a href="/data">Ввести результаты</a></button>
+        </div>
+    </form>
+   
+    <!-- <a class="button reset a_button" href="#open_modal_result"> Внести результаты</a> -->
+    </div>
+</div>
+</body>
+</html>
